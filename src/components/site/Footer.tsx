@@ -18,8 +18,8 @@ export function Footer() {
             <h2 className="text-2xl font-extrabold !text-white sm:text-3xl">{company.footerCta.title}</h2>
             <p className="mt-2 text-white/80">{company.footerCta.text}</p>
           </div>
-          <a href={`tel:${company.phonePrimary.tel}`} className="relative inline-flex h-14 items-center gap-3 rounded-full bg-[#E2E800] px-6 font-bold text-[#141414] transition hover:-translate-y-0.5 hover:shadow-lift">
-            <Phone aria-hidden className="size-5 text-[#141414]" />{company.phonePrimary.display}
+          <a href={`tel:${company.phonePrimary.tel}`} className="relative inline-flex h-14 items-center gap-3 rounded-full bg-[#E6007A] px-6 font-bold text-white transition hover:-translate-y-0.5 hover:shadow-lift hover:bg-[#D80268]">
+            <Phone aria-hidden className="size-5 text-white" />{company.phonePrimary.display}
           </a>
         </div>
 
@@ -31,7 +31,7 @@ export function Footer() {
               {company.social.map((s) => (
                 <li key={s.key}>
                   <a href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}
-                    className="flex size-10 items-center justify-center rounded-full border border-white/15 text-white/80 transition hover:border-transparent hover:bg-[#E2E800] hover:text-[#141414]">
+                    className="flex size-10 items-center justify-center rounded-full border border-white/15 text-white/80 transition hover:border-transparent hover:bg-[#E6007A] hover:text-white">
                     <SocialIcon name={s.key} />
                   </a>
                 </li>
@@ -43,9 +43,9 @@ export function Footer() {
           <div className="lg:col-span-3">
             <h3 className="text-sm font-bold uppercase tracking-widest !text-white">Contact Info</h3>
             <ul className="mt-5 space-y-4 text-sm">
-              <li className="flex gap-3"><MapPin aria-hidden className="mt-0.5 size-4 shrink-0 text-[#E2E800]" />{company.officeDisplay}</li>
-              <li><a className="flex gap-3 hover:text-white" href={`tel:${company.phonePrimary.tel}`}><Phone aria-hidden className="mt-0.5 size-4 shrink-0 text-[#E2E800]" />{company.phonePrimary.display}</a></li>
-              <li><a className="flex gap-3 break-all hover:text-white" href={`mailto:${company.email}`}><Mail aria-hidden className="mt-0.5 size-4 shrink-0 text-[#E2E800]" />{company.email}</a></li>
+              <li className="flex gap-3"><MapPin aria-hidden className="mt-0.5 size-4 shrink-0 text-[#E6007A]" />{company.officeDisplay}</li>
+              <li><a className="flex gap-3 hover:text-white" href={`tel:${company.phonePrimary.tel}`}><Phone aria-hidden className="mt-0.5 size-4 shrink-0 text-[#E6007A]" />{company.phonePrimary.display}</a></li>
+              <li><a className="flex gap-3 break-all hover:text-white" href={`mailto:${company.email}`}><Mail aria-hidden className="mt-0.5 size-4 shrink-0 text-[#E6007A]" />{company.email}</a></li>
             </ul>
           </div>
         </div>

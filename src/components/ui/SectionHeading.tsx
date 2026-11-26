@@ -7,7 +7,7 @@ export function AccentText({ text, accent, light }: { text: string; accent?: str
   return (
     <>
       {text.slice(0, i)}
-      <span className={light ? "text-[#E2E800]" : "text-gradient border-b-2 border-[#E2E800]"}>{accent}</span>
+      <span className={light ? "text-[#E6007A]" : "text-gradient border-b-2 border-[#E6007A]"}>{accent}</span>
       {text.slice(i + accent.length)}
     </>
   );
@@ -17,8 +17,8 @@ export function Eyebrow({ children, tone = "brand", className }: { children: Rea
   return (
     <span className={cn(
       "inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.14em]",
-      tone === "brand" ? "text-ink" : "text-[#E2E800]", className)}>
-      <span aria-hidden className="h-2 w-5 rounded-full bg-[#E2E800]" />
+      tone === "brand" ? "text-ink" : "text-[#E6007A]", className)}>
+      <span aria-hidden className="h-2 w-5 rounded-full bg-[#E6007A]" />
       {children}
     </span>
   );

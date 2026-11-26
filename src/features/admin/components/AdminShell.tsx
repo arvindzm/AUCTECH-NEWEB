@@ -35,7 +35,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
                 <li key={it.href}>
                   <Link href={it.href} aria-current={isActive(it.href) ? "page" : undefined}
                     className={cn("flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-semibold transition",
-                      isActive(it.href) ? "bg-[#E2E800] text-[#141414]" : "text-white/75 hover:bg-white/10 hover:text-white")}>
+                      isActive(it.href) ? "bg-[#E6007A] text-white font-bold" : "text-white/75 hover:bg-white/10 hover:text-white")}>
                     <I aria-hidden className="size-4 shrink-0" />{it.label}
                   </Link>
                 </li>
@@ -71,7 +71,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
           <span className="hidden rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-800 sm:inline">UI preview · backend not connected</span>
           <div className="ml-auto flex items-center gap-1">
             <a href="/" target="_blank" rel="noopener noreferrer" className="inline-flex h-10 items-center gap-2 rounded-lg px-3 text-sm font-semibold text-ink-soft hover:bg-surface"><ExternalLink className="size-4" /><span className="hidden sm:inline">View website</span></a>
-            <Link href="/admin/profile" aria-label="Profile" className="flex size-10 items-center justify-center rounded-full border border-[#E2E800]/30 bg-[#141414] text-[#E2E800] transition hover:bg-[#E2E800] hover:text-[#141414]"><UserRound className="size-4" /></Link>
+            <Link href="/admin/profile" aria-label="Profile" className="flex size-10 items-center justify-center rounded-full border border-[#E6007A]/30 bg-[#280146] text-[#E6007A] transition hover:bg-[#E6007A] hover:text-white"><UserRound className="size-4" /></Link>
             <button type="button" onClick={() => setLogout(true)} aria-label="Sign out" className="flex size-10 items-center justify-center rounded-lg text-ink-soft hover:bg-surface"><LogOut className="size-4" /></button>
           </div>
         </header>

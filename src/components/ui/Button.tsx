@@ -8,11 +8,11 @@ type Size = "sm" | "md" | "lg";
 const base =
   "group inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-all duration-300 disabled:pointer-events-none disabled:opacity-60 whitespace-nowrap";
 const variants: Record<Variant, string> = {
-  primary: "bg-[#141414] text-white hover:bg-[#E2E800] hover:text-[#141414] hover:border-[#E2E800] border border-[#141414] shadow-card",
-  gradient: "bg-cta-gradient text-[#141414] font-bold hover:shadow-lift hover:-translate-y-0.5",
-  outline: "border border-[#141414] text-[#141414] bg-white hover:bg-[#E2E800] hover:text-[#141414] hover:border-[#E2E800]",
-  ghost: "text-[#141414] hover:bg-surface hover:text-[#141414]",
-  light: "bg-white text-[#141414] hover:bg-[#E2E800] hover:text-[#141414] shadow-card",
+  primary: "bg-[#280146] text-white hover:bg-[#E6007A] hover:text-white hover:border-[#E6007A] border border-[#280146] shadow-card",
+  gradient: "bg-cta-gradient text-white font-bold hover:shadow-lift hover:-translate-y-0.5",
+  outline: "border border-[#280146] text-[#280146] bg-white hover:bg-[#E6007A] hover:text-white hover:border-[#E6007A]",
+  ghost: "text-[#280146] hover:bg-surface hover:text-[#E6007A]",
+  light: "bg-white text-[#280146] hover:bg-[#E6007A] hover:text-white shadow-card",
   danger: "bg-red-600 text-white hover:bg-red-700",
 };
 const sizes: Record<Size, string> = {

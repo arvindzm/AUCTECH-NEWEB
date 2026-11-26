@@ -38,10 +38,11 @@ export const company = {
     { key: "whatsapp", label: "WhatsApp", href: "https://wa.me/919026343351" },
   ],
   logo: {
-    // Official uploaded logo (894x252 trimmed artwork from 1024x1024 master)
+    // Official uploaded logo (895x254 trimmed artwork from 1024x1024 master)
     white: "/brand/auctech-logo-white.png",
-    width: 894,
-    height: 252,
+    color: "/brand/auctech-logo-color.png",
+    width: 895,
+    height: 254,
   },
   footerCta: {
     title: "Ready to Amplify Your Vision?",

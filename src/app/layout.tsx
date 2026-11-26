@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Auctech IT Solutions",
 };
 
-export const viewport: Viewport = { themeColor: "#141414", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#150024", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

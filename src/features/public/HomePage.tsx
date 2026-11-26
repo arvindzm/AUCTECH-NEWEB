@@ -6,6 +6,7 @@ import { ButtonLink } from "@/components/ui/Button";
 import { AccentText, Eyebrow, SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import { FeatureCard, StatsBand } from "@/components/sections/Blocks";
+import { ServiceCardVisual3D } from "@/components/sections/ServiceCardVisual3D";
 import { allTestimonials, cities, portfolioItems } from "@/lib/content";
 import { assetPath, contentApprovals } from "@/lib/site";
 
@@ -17,11 +18,11 @@ export function HomePage() {
       {/* HERO */}
       <section className="relative overflow-hidden hero-mesh pb-24 pt-36 text-white sm:pt-44 lg:pb-32">
         <div aria-hidden className="absolute inset-0 grid-lines" />
-        <div aria-hidden className="absolute -bottom-40 left-1/2 h-80 w-[60rem] -translate-x-1/2 rounded-full bg-[#E2E800]/15 blur-3xl" />
+        <div aria-hidden className="absolute -bottom-40 left-1/2 h-80 w-[60rem] -translate-x-1/2 rounded-full bg-[#E6007A]/20 blur-3xl" />
         <div className="container-x relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="animate-fade-up">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm font-semibold backdrop-blur">
-              <span className="size-2 rounded-full bg-[#E2E800]" aria-hidden />{home.showcase.label}
+              <span className="size-2 rounded-full bg-[#E6007A]" aria-hidden />{home.showcase.label}
             </span>
             <h1 className="mt-6 text-4xl font-extrabold leading-[1.06] !text-white sm:text-5xl xl:text-[4rem]">
               <AccentText text={home.hero.h1} accent={home.hero.accent} light />
@@ -58,7 +59,7 @@ export function HomePage() {
           <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {home.showcase.bullets.map((b, i) => (
               <Reveal as="li" key={b} delay={i * 70} className="flex items-center gap-3 rounded-2xl border border-line bg-white p-5 font-semibold text-ink shadow-card">
-                <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-[#E2E800] text-[#141414]"><Check aria-hidden className="size-4" /></span>{b}
+                <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-[#E6007A] text-white"><Check aria-hidden className="size-4" /></span>{b}
               </Reveal>
             ))}
           </ul>
@@ -74,8 +75,8 @@ export function HomePage() {
             <div className="overflow-hidden rounded-[2rem] shadow-card">
               <Image src={assetPath(home.about.image.src)} alt={home.about.image.alt} width={817} height={768} sizes="(min-width:1024px) 560px, 100vw" className="h-auto w-full" />
             </div>
-            <div className="absolute -bottom-6 right-6 rounded-2xl border border-[#E2E800]/30 bg-[#141414] px-6 py-5 text-white shadow-lift">
-              <p className="text-4xl font-extrabold text-[#E2E800]">{home.about.exp.value}</p><p className="text-sm text-white/85">{home.about.exp.label}</p>
+            <div className="absolute -bottom-6 right-6 rounded-2xl border border-[#E6007A]/30 bg-[#280146] px-6 py-5 text-white shadow-lift">
+              <p className="text-4xl font-extrabold text-[#E6007A]">{home.about.exp.value}</p><p className="text-sm text-white/85">{home.about.exp.label}</p>
             </div>
           </Reveal>
           <Reveal>
@@ -97,15 +98,20 @@ export function HomePage() {
             <SectionHeading align="left" eyebrow={home.services.label} title={home.services.h2} accent={home.services.accent} desc={home.services.desc} />
             <ButtonLink href={home.services.more.href} variant="outline" arrow>{home.services.more.label}</ButtonLink>
           </div>
-          <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {home.services.items.map((s, i) => (
               <Reveal as="li" key={s.title} delay={(i % 3) * 80}>
-                <Link href={s.href} className="group flex h-full flex-col rounded-3xl border border-line bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-brand-200 hover:shadow-lift">
-                  <span className="text-sm font-bold text-brand-600">{String(i + 1).padStart(2, "0")}</span>
-                  <h3 className="mt-3 text-xl font-bold group-hover:text-brand-700">{s.title}</h3>
-                  <p className="mt-2.5 flex-1 leading-relaxed text-muted">{s.text}</p>
+                <Link href={s.href} className="group flex h-full flex-col overflow-hidden rounded-3xl border border-line bg-white p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-brand-300 hover:shadow-lift">
+                  <div className="relative mb-5">
+                    <ServiceCardVisual3D index={i} />
+                    <span className="absolute left-3 top-3 rounded-full border border-white/20 bg-black/50 px-2.5 py-0.5 font-mono text-xs font-bold text-white backdrop-blur-md">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                  </div>
+                  <h3 className="text-xl font-bold transition-colors group-hover:text-brand-700">{s.title}</h3>
+                  <p className="mt-2.5 flex-1 text-[15px] leading-relaxed text-muted">{s.text}</p>
                   <span className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-brand-700">{s.cta}
-                    <span className="flex size-8 items-center justify-center rounded-full bg-brand-50 transition group-hover:bg-brand-gradient group-hover:text-white"><ArrowUpRight aria-hidden className="size-4" /></span>
+                    <span className="flex size-8 items-center justify-center rounded-full bg-brand-50 transition-colors group-hover:bg-brand-gradient group-hover:text-white"><ArrowUpRight aria-hidden className="size-4" /></span>
                   </span>
                 </Link>
               </Reveal>
@@ -141,7 +147,7 @@ export function HomePage() {
                 <div className="flex items-start justify-between gap-4"><h3 className="text-xl font-bold">{it.title}</h3><span className="text-2xl font-extrabold text-gradient">{it.value}%</span></div>
                 <p className="mt-2 text-muted">{it.text}</p>
                 <div className="mt-5 flex justify-between text-xs font-semibold text-muted"><span>{it.metric}</span><span>{it.value}%</span></div>
-                <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-100" role="presentation"><div className="h-full rounded-full bg-[#E2E800]" style={{ width: `${it.value}%` }} /></div>
+                <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-100" role="presentation"><div className="h-full rounded-full bg-[#E6007A]" style={{ width: `${it.value}%` }} /></div>
               </Reveal>
             ))}
           </ul>
@@ -179,7 +185,7 @@ export function HomePage() {
                   <span className="text-5xl font-extrabold text-white/10 transition group-hover:text-white/25">{String(i + 1).padStart(2, "0")}</span>
                   <h3 className="mt-4 text-xl font-bold !text-white">{it.title}</h3>
                   <p className="mt-2 flex-1 text-white/65">{it.text}</p>
-                  <ArrowUpRight aria-hidden className="mt-5 size-5 text-[#E2E800] transition group-hover:translate-x-1 group-hover:-translate-y-1" />
+                  <ArrowUpRight aria-hidden className="mt-5 size-5 text-[#E6007A] transition group-hover:translate-x-1 group-hover:-translate-y-1" />
                 </Link>
               </li>
             ))}
@@ -195,7 +201,7 @@ export function HomePage() {
             <ul className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {testimonials.map((t, i) => (
                 <li key={i} className="rounded-3xl border border-line bg-white p-7 shadow-card">
-                  <Quote aria-hidden className="size-7 text-[#E2E800]" />
+                  <Quote aria-hidden className="size-7 text-[#E6007A]" />
                   <div className="mt-2 flex gap-0.5 text-amber-400" aria-label="5 star rating">{Array.from({ length: 5 }).map((_, j) => <Star key={j} aria-hidden className="size-4 fill-current" />)}</div>
                   <blockquote className="mt-3 leading-relaxed">“{t.quote}”</blockquote>
                   <p className="mt-5 font-bold text-ink">{t.author}</p><p className="text-sm text-muted">{t.role}</p>

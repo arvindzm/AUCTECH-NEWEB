@@ -57,7 +57,7 @@ export function ContactForm() {
             return (
               <button key={n} type="button" aria-pressed={on} onClick={() => setNeeds(on ? needs.filter((x) => x !== n) : [...needs, n])}
                 className={cn("inline-flex items-center gap-1.5 rounded-full border px-3.5 py-2 text-sm font-semibold transition",
-                  on ? "border-[#141414] bg-[#141414] text-[#E2E800]" : "border-line bg-white text-ink-soft hover:border-[#141414] hover:text-[#141414]")}>
+                  on ? "border-[#280146] bg-[#280146] text-[#E6007A]" : "border-line bg-white text-ink-soft hover:border-[#E6007A] hover:text-[#E6007A]")}>
                 {on && <Check aria-hidden className="size-3.5" />}{n}
               </button>
             );

@@ -51,7 +51,7 @@ export function StatsBand({ stats, tone = "light" }: { stats: Stat[]; tone?: "li
               : cn(i % 2 === 1 && "border-l", i >= 2 && "border-t lg:border-t-0", i > 0 && "lg:border-l"),
             tone === "dark" ? "border-white/15" : "border-line")}>
             <dt className={cn("order-2 mt-1 text-sm font-medium", tone === "dark" ? "text-white/80" : "text-muted")}>{s.label}</dt>
-            <dd className={cn("order-1 text-3xl font-extrabold sm:text-4xl", tone === "dark" ? "text-[#E2E800]" : "text-gradient")}>{s.value}</dd>
+            <dd className={cn("order-1 text-3xl font-extrabold sm:text-4xl", tone === "dark" ? "text-[#E6007A]" : "text-gradient")}>{s.value}</dd>
           </div>
         ))}
       </dl>
@@ -100,7 +100,7 @@ export function PowerSplit({ block }: { block: SectionBlock }) {
           <ul className={cn("mt-8 gap-4", block.image ? "grid" : "grid md:grid-cols-2 lg:grid-cols-4")}>
             {block.items.map((c, i) => (
               <Reveal as="li" key={i} delay={i * 80} className="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5 transition hover:border-white/25 hover:bg-white/[0.07]">
-                <CheckCircle2 aria-hidden className="mt-0.5 size-6 shrink-0 text-[#E2E800]" />
+                <CheckCircle2 aria-hidden className="mt-0.5 size-6 shrink-0 text-[#E6007A]" />
                 <div><h3 className="text-lg font-bold !text-white">{c.title}</h3>{c.text && <p className="mt-1 text-white/70">{c.text}</p>}</div>
               </Reveal>
             ))}
@@ -123,10 +123,10 @@ export function ProcessSteps({ block }: { block: SectionBlock }) {
       <div className="container-x">
         <SectionHeading eyebrow={block.label} title={block.h2} accent={block.accent} desc={block.desc} />
         <ol className={cn("relative mt-14 grid gap-5 md:grid-cols-2", block.items.length >= 5 ? "lg:grid-cols-5" : "lg:grid-cols-4")}>
-          <span aria-hidden className="absolute left-0 right-0 top-7 hidden h-px bg-gradient-to-r from-transparent via-[#E2E800] to-transparent lg:block" />
+          <span aria-hidden className="absolute left-0 right-0 top-7 hidden h-px bg-gradient-to-r from-transparent via-[#E6007A] to-transparent lg:block" />
           {block.items.map((s, i) => (
             <Reveal as="li" key={i} delay={i * 90} className="relative rounded-3xl border border-line bg-white p-6 shadow-card transition hover:-translate-y-1 hover:shadow-lift">
-              <span className="relative flex size-14 items-center justify-center rounded-2xl border border-[#E2E800]/30 bg-[#141414] text-lg font-extrabold text-[#E2E800] shadow-lift">{String(i + 1).padStart(2, "0")}</span>
+              <span className="relative flex size-14 items-center justify-center rounded-2xl border border-[#E6007A]/30 bg-[#280146] text-lg font-extrabold text-[#E6007A] shadow-lift">{String(i + 1).padStart(2, "0")}</span>
               <h3 className="mt-5 text-lg font-bold">{s.title}</h3>
               {s.text && <p className="mt-2 text-[15px] leading-relaxed text-muted">{s.text}</p>}
             </Reveal>
@@ -144,7 +144,7 @@ export function CtaBanner({ title, text, primary }: { title: string; text?: stri
       <div className="container-x">
         <div className="relative overflow-hidden rounded-[2rem] bg-brand-gradient px-6 py-14 text-center text-white sm:px-12">
           <div aria-hidden className="absolute inset-0 grid-lines" />
-          <div aria-hidden className="absolute -left-16 -top-16 size-64 rounded-full bg-[#E2E800]/20 blur-3xl" />
+          <div aria-hidden className="absolute -left-16 -top-16 size-64 rounded-full bg-[#E6007A]/20 blur-3xl" />
           <div className="relative mx-auto max-w-2xl">
             <h2 className="text-3xl font-extrabold !text-white sm:text-4xl">{title}</h2>
             {text && <p className="mt-4 text-lg text-white/85">{text}</p>}
