@@ -1,0 +1,293 @@
+{
+ "meta": {
+  "title": "3D Walkthrough in Gorakhpur | Best 3D Walkthrough Company | Auctech",
+  "description": "Get stunning 3D walkthrough animations in Gorakhpur. Auctech IT Solutions creates photorealistic 3D architectural walkthroughs, interior and exterior visualizations.",
+  "keywords": "Gorakhpur 3d walkthrough, 3d walkthrough company in Gorakhpur, best 3d architectural walkthrough Gorakhpur, top 3d animation agency Gorakhpur, 3d interior exterior rendering Gorakhpur, photorealistic 3d rendering Gorakhpur, 3d vr tours Gorakhpur, commercial 3d walkthrough Gorakhpur, real estate 3d visualization Gorakhpur, 3d floor plan rendering Gorakhpur, premium 3d walkthrough services Gorakhpur, affordable 3d architectural animation Gorakhpur",
+  "og:title": "3D Walkthrough in Gorakhpur | Best 3D Walkthrough Company | Auctech",
+  "og:description": "Get stunning 3D walkthrough animations in Gorakhpur. Auctech IT Solutions creates photorealistic 3D architectural walkthroughs, interior and exterior visualizations.",
+  "og:url": "https://auctechitsolutions.in/3d-walkthrough-in-gorakhpur",
+  "og:image": "https://auctechitsolutions.in/img/auctech_logo.webp",
+  "canonical": "https://auctechitsolutions.in/3d-walkthrough-in-gorakhpur"
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "serviceType": "3D Architectural Walkthrough",
+   "provider": {
+    "@type": "LocalBusiness",
+    "name": "Auctech IT Solutions",
+    "url": "https://auctechitsolutions.in",
+    "telephone": "+91-9026343351",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "2nd Floor Sana Palace 2, Opp. Sahara Mall, Hazratganj",
+     "addressLocality": "Gorakhpur",
+     "addressRegion": "Uttar Pradesh",
+     "postalCode": "226001",
+     "addressCountry": "IN"
+    }
+   },
+   "areaServed": {
+    "@type": "City",
+    "name": "Gorakhpur"
+   },
+   "description": "Premium 3D walkthrough, architectural visualization, interior & exterior rendering, and VR tour services in Gorakhpur.",
+   "offers": {
+    "@type": "Offer",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is a 3D architectural walkthrough?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A 3D architectural walkthrough is a computer-generated, photorealistic animation or interactive tour that allows you to explore a building or space virtually — as if you were physically walking through it."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does a 3D walkthrough cost in Gorakhpur?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost depends on the project size, complexity, and output format. At Auctech IT Solutions, our 3D walkthrough services start from ₹15,000 for basic projects."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to create a 3D walkthrough?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Typically, a standard 3D walkthrough takes 5-10 business days depending on the project's complexity and scope."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What files do you need to start a 3D walkthrough project?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We typically need your floor plans (AutoCAD or PDF), elevation drawings, material/color preferences, and any reference images."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I make changes after seeing the initial 3D walkthrough?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely! We include a revision round in every project. After the initial draft, you can request changes to materials, colors, camera angles, lighting, and more."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide VR-compatible 3D walkthroughs?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We create VR-ready walkthroughs compatible with Oculus, HTC Vive, and web-based VR viewers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why should I choose Auctech IT Solutions for 3D walkthroughs in Gorakhpur?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "With 10+ years of experience, 500+ completed projects, and a dedicated team of 3D artists and architects, Auctech IT Solutions is Gorakhpur's most trusted 3D walkthrough company."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you add background music and voiceovers to the walkthrough?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, all our cinematic 3D walkthroughs can be enhanced with professional background scores, sound effects, and multilingual voiceovers to create a truly immersive and emotional experience for your clients."
+     }
+    }
+   ]
+  }
+ ],
+ "hero": {
+  "eyebrow": "Creative Visualization",
+  "h1": "3D Architectural Walkthrough",
+  "accent": "Walkthrough",
+  "sub": "Premium 3D rendering and architectural walkthrough services in Gorakhpur. We bring your blueprints to life with stunning realism.",
+  "breadcrumb": "3D Walkthrough"
+ },
+ "intro": {
+  "label": "",
+  "h2": "Your Premier 3D Walkthrough Company in Gorakhpur",
+  "accent": "3D Walkthrough Company",
+  "paras": [
+   "Welcome to Auctech IT Solutions, Gorakhpur's leading provider of photorealistic 3D architectural walkthroughs. We specialize in creating stunning visualizations that bring your blueprints and designs to life before construction even begins.",
+   "Whether you're an architect, real estate developer, or interior designer, our high-quality 3D walkthroughs help you showcase your projects in the most captivating way possible — winning clients and closing deals faster.",
+   "With a relentless focus on quality and over a decade of experience, we've established ourselves as the go-to partner for professionals seeking to elevate their project presentations."
+  ],
+  "image": {
+   "src": "img/3d-walkthrough.webp",
+   "alt": "Best 3D Walkthrough Company in Gorakhpur - Auctech IT Solutions"
+  },
+  "cta": null
+ },
+ "stats": [
+  {
+   "value": "500+",
+   "label": "Projects Delivered"
+  },
+  {
+   "value": "400+",
+   "label": "Happy Clients"
+  },
+  {
+   "value": "10+",
+   "label": "Years Experience"
+  },
+  {
+   "value": "50+",
+   "label": "Cities Served"
+  }
+ ],
+ "why": {
+  "label": "Why Choose Us",
+  "h2": "Why Choose Auctech IT Solutions?",
+  "accent": "Auctech IT Solutions?",
+  "desc": "We combine cutting-edge technology with creative mastery to deliver 3D walkthroughs that set industry benchmarks.",
+  "items": [
+   {
+    "title": "Unmatched Expertise",
+    "text": "Years of experience and a keen understanding of industry trends allow us to deliver cutting-edge 3D walkthroughs that leave a lasting impression."
+   },
+   {
+    "title": "Quality You Can Trust",
+    "text": "We implement rigorous quality control measures throughout every stage of the project, ensuring the final product exceeds your expectations."
+   },
+   {
+    "title": "Customization at its Finest",
+    "text": "Every project is unique. We offer bespoke solutions tailored to your specific needs, bringing your vision to life with unmatched precision and creativity."
+   },
+   {
+    "title": "Competitive Rates",
+    "text": "Quality and affordability go hand-in-hand. We offer competitive pricing and flexible packages to suit projects of all sizes and budgets."
+   },
+   {
+    "title": "Timely Delivery",
+    "text": "We go the extra mile to ensure your project is completed on time and within budget, without compromising on quality or detail."
+   },
+   {
+    "title": "Exceptional Support",
+    "text": "From initial consultation to project completion, our dedicated team provides personalized attention, timely updates, and expert guidance."
+   }
+  ]
+ },
+ "services": {
+  "label": "Our Services",
+  "h2": "3D Walkthrough Services We Offer",
+  "accent": "Services We Offer",
+  "desc": "From concept to completion, we provide a comprehensive range of 3D visualization services.",
+  "items": [
+   {
+    "title": "Architectural Walkthroughs",
+    "text": "Immersive virtual tours of residential and commercial spaces. Explore designs in stunning detail before construction begins."
+   },
+   {
+    "title": "Interior & Exterior Visualization",
+    "text": "Photorealistic renders of both interior and exterior spaces, showcasing materials, lighting, and furnishings with lifelike accuracy."
+   },
+   {
+    "title": "3D Animation",
+    "text": "Dynamic fly-through and walkthrough animations that bring your designs to life with cinematic quality and compelling storytelling."
+   },
+   {
+    "title": "VR Tours",
+    "text": "Interactive virtual reality experiences that let clients explore properties from anywhere in the world using VR headsets or web browsers."
+   },
+   {
+    "title": "Floor Plan Rendering",
+    "text": "Detailed 2D and 3D floor plans that help clients understand spatial layouts, room dimensions, and flow of the design."
+   },
+   {
+    "title": "Photorealistic Rendering",
+    "text": "High-resolution, photorealistic still images that are indistinguishable from photographs — perfect for marketing and presentations."
+   }
+  ]
+ },
+ "process": {
+  "label": "Our Process",
+  "h2": "How We Create Your 3D Walkthrough",
+  "accent": "3D Walkthrough",
+  "desc": "Our streamlined 5-step process ensures premium quality and on-time delivery every single time.",
+  "items": [
+   {
+    "title": "Free Consultation",
+    "text": "We discuss your vision, project scope, timeline, and budget to create a tailored plan that meets your exact requirements."
+   },
+   {
+    "title": "Blueprint & Reference Analysis",
+    "text": "Our team analyzes your floor plans, CAD drawings, and reference materials to understand every detail of your project."
+   },
+   {
+    "title": "3D Modeling & Texturing",
+    "text": "We build a detailed 3D model of your project, applying realistic textures, materials, and lighting for maximum impact."
+   },
+   {
+    "title": "Rendering & Animation",
+    "text": "Using industry-leading software, we render photorealistic frames and compose cinematic animations with smooth camera movements."
+   },
+   {
+    "title": "Review & Delivery",
+    "text": "We present the final output for your review, refine based on feedback, and deliver in your preferred format — 4K video, web, or VR-ready."
+   }
+  ]
+ },
+ "cta": {
+  "h2": "Ready to Bring Your Vision to Life?",
+  "text": "Partner with Gorakhpur's most trusted 3D walkthrough company. Get a free consultation and quote today.",
+  "primary": {
+   "label": "Get a Free Quote",
+   "href": "/contact"
+  }
+ },
+ "faq": {
+  "h2": "Frequently Asked Questions",
+  "accent": "Questions",
+  "desc": "Everything you need to know about our 3D walkthrough services.",
+  "items": [
+   {
+    "q": "What is a 3D architectural walkthrough?",
+    "a": "A 3D architectural walkthrough is a computer-generated, photorealistic animation or interactive tour that allows you to explore a building or space virtually — as if you were physically walking through it. It's used by architects, real estate developers, and interior designers to visualize projects before construction begins."
+   },
+   {
+    "q": "How much does a 3D walkthrough cost in Gorakhpur?",
+    "a": "The cost depends on the project size, complexity, and output format. At Auctech IT Solutions, our 3D walkthrough services start from ₹15,000 for basic projects. We offer competitive pricing and flexible packages to suit all budgets. Contact us for a free, customized quote."
+   },
+   {
+    "q": "How long does it take to create a 3D walkthrough?",
+    "a": "Typically, a standard 3D walkthrough takes 5-10 business days depending on the project's complexity and scope. Urgent projects can be fast-tracked with our express delivery option. We always ensure timely delivery without compromising on quality."
+   },
+   {
+    "q": "What files do you need to start a 3D walkthrough project?",
+    "a": "We typically need your floor plans (AutoCAD or PDF), elevation drawings, material/color preferences, and any reference images. If you don't have detailed blueprints, don't worry — our team can work with sketches or rough ideas to create your visualization."
+   },
+   {
+    "q": "Can I make changes after seeing the initial 3D walkthrough?",
+    "a": "Absolutely! We include a revision round in every project. After the initial draft, you can request changes to materials, colors, camera angles, lighting, and more. Our goal is to ensure you're 100% satisfied with the final output."
+   },
+   {
+    "q": "Do you provide VR-compatible 3D walkthroughs?",
+    "a": "Yes! We create VR-ready walkthroughs compatible with Oculus, HTC Vive, and web-based VR viewers. This allows your clients to experience the property in an immersive, 360-degree environment — perfect for real estate showrooms and exhibitions."
+   },
+   {
+    "q": "Why should I choose Auctech IT Solutions for 3D walkthroughs in Gorakhpur?",
+    "a": "With 10+ years of experience, 500+ completed projects, and a dedicated team of 3D artists and architects, Auctech IT Solutions is Gorakhpur's most trusted 3D walkthrough company. We combine cutting-edge technology with creative mastery to deliver results that consistently exceed expectations."
+   },
+   {
+    "q": "Do you add background music and voiceovers to the walkthrough?",
+    "a": "Yes, all our cinematic 3D walkthroughs can be enhanced with professional background scores, sound effects, and multilingual voiceovers to create a truly immersive and emotional experience for your clients."
+   }
+  ]
+ },
+ "slug": "3d-walkthrough-in-gorakhpur"
+}

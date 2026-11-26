@@ -1,0 +1,305 @@
+{
+ "meta": {
+  "title": "Best Video Editing Service in Lucknow | Auctech IT Solutions",
+  "description": "Professional video editing services in Lucknow by Auctech IT Solutions. Corporate videos, YouTube reels, product demos, testimonial videos and promotional films.",
+  "keywords": "video editing lucknow, professional video editing lucknow, youtube video editing lucknow, corporate video editing lucknow",
+  "og:title": "Best Video Editing Service in Lucknow | Auctech IT Solutions",
+  "og:description": "Professional video editing services in Lucknow by Auctech IT Solutions. Corporate videos, YouTube reels, product demos, testimonial videos and promotional films.",
+  "og:url": "https://auctechitsolutions.in/best-video-editing-in-lucknow",
+  "og:image": "https://auctechitsolutions.in/img/auctech_logo.webp",
+  "canonical": "https://auctechitsolutions.in/best-video-editing-in-lucknow"
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "serviceType": "Video Editing & Production Services",
+   "provider": {
+    "@type": "LocalBusiness",
+    "name": "Auctech IT Solutions",
+    "url": "https://auctechitsolutions.in",
+    "telephone": "+91-9026343351",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "2nd Floor Sana Palace 2, Opp. Sahara Mall, Hazratganj",
+     "addressLocality": "Lucknow",
+     "addressRegion": "Uttar Pradesh",
+     "postalCode": "226001",
+     "addressCountry": "IN"
+    }
+   },
+   "areaServed": {
+    "@type": "City",
+    "name": "Lucknow"
+   },
+   "description": "Professional video editing services in Lucknow including corporate videos, YouTube reels, product demos, explainer videos, and social media content creation."
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What video editing software do you use?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We use Adobe Premiere Pro for editing, DaVinci Resolve for colour grading, Adobe After Effects for motion graphics, and Adobe Audition for sound design."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to edit a video?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A short-form reel is delivered within 24–48 hours. A full corporate or YouTube video takes 3–5 business days. Express delivery is available for urgent projects."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What formats will I receive the final video in?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We deliver in all formats needed — 4K MP4, web-compressed MP4, vertical 9:16 for Reels/TikTok, and broadcast-quality ProRes or H.264."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide voiceover or subtitles with the video?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer professional voiceover in Hindi and English, SRT subtitle files, burned-in captions, and animated subtitles for social media."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How many revisions are included?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We include up to 3 revision rounds in every project to ensure the video perfectly matches your brand vision."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you edit videos for YouTube monetization and SEO?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We optimize every YouTube video for maximum watch-time with engaging hooks, dynamic pacing, end screens, chapters, and on-screen text that boost retention."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What raw footage formats do you accept?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We accept MP4, MOV, AVI, MXF, RAW, R3D, BRAW, ProRes, and virtually all camera formats from DSLRs, smartphones, Cinema Cameras, and GoPros."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you also create motion graphics and animations for videos?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We create lower thirds, kinetic typography, animated logos, infographic animations, and custom transitions using Adobe After Effects."
+     }
+    }
+   ]
+  }
+ ],
+ "hero": {
+  "eyebrow": "Video Production",
+  "h1": "Professional Video Editing",
+  "accent": "Video Editing",
+  "sub": "High-quality video editing and production services to tell your brand story effectively.",
+  "breadcrumb": "Video Editing"
+ },
+ "intro": {
+  "label": "Cinematic Excellence",
+  "h2": "Your Story Deserves World-Class Editing",
+  "accent": "World-Class Editing",
+  "paras": [
+   "In the age of short attention spans, a poorly edited video can destroy a brand's credibility. At Auctech IT Solutions, the best video editing service in Lucknow, we transform raw footage into polished, high-impact stories that captivate audiences and drive real engagement.",
+   "Whether it's a cinematic corporate film, a high-energy Instagram Reel, or an educational explainer — our skilled editor team ensures every frame, every cut, and every sound design choice serves your brand's objective."
+  ],
+  "image": {
+   "src": "img/video_editing.webp",
+   "alt": "Best Video Editing Service in Lucknow"
+  },
+  "cta": {
+   "label": "Start Your Video Project",
+   "href": "/contact"
+  }
+ },
+ "stats": [
+  {
+   "value": "700+",
+   "label": "Videos Edited"
+  },
+  {
+   "value": "400+",
+   "label": "Happy Clients"
+  },
+  {
+   "value": "10+",
+   "label": "Years Experience"
+  },
+  {
+   "value": "48hr",
+   "label": "Avg. Turnaround"
+  }
+ ],
+ "why": {
+  "label": "The Auctech Edge",
+  "h2": "Why Choose Our Video Editors?",
+  "accent": "Our Video Editors?",
+  "desc": "We combine artistic vision with technical mastery to deliver videos that don't just look great — they perform.",
+  "items": [
+   {
+    "title": "Cinematic Quality",
+    "text": "We use industry-leading tools to deliver razor-sharp colour grading, seamless cuts and professional sound design."
+   },
+   {
+    "title": "Fast Turnaround",
+    "text": "Urgent deadline? Our streamlined workflow delivers polished results in as little as 24–48 hours without sacrificing quality."
+   },
+   {
+    "title": "Unlimited Revisions",
+    "text": "Your satisfaction is our benchmark. We refine every video until it matches your exact vision and brand guidelines."
+   },
+   {
+    "title": "Engagement-Focused",
+    "text": "We edit with platform algorithms in mind. Every video is optimized to maximize watch-time, shares, and conversions."
+   }
+  ]
+ },
+ "power": {
+  "label": "Why Video Matters",
+  "h2": "Video is the Fastest Growing Content Format",
+  "accent": "Fastest Growing",
+  "items": [
+   {
+    "title": "95% Information Retention",
+    "text": "Viewers retain 95% of a message when watched via video versus only 10% when reading text."
+   },
+   {
+    "title": "12x More Shares",
+    "text": "Video content generates 12x more shares than images and text combined on all social platforms."
+   },
+   {
+    "title": "80% Higher Conversions",
+    "text": "Landing pages with a product video see up to 80% higher conversion rates than pages without one."
+   }
+  ],
+  "image": {
+   "src": "img/video-img.webp",
+   "alt": "Power of professional video editing"
+  }
+ },
+ "services": {
+  "label": "Our Expertise",
+  "h2": "Video Editing Services We Offer",
+  "accent": "Services We Offer",
+  "desc": "From short-form social reels to full-length corporate documentaries, we edit it all.",
+  "items": [
+   {
+    "title": "Corporate & Brand Videos",
+    "text": "Polished company profiles, product launches, and investor presentations edited with premium transitions, motion graphics, and professional colour grading."
+   },
+   {
+    "title": "YouTube Video Editing",
+    "text": "High-retention YouTube edits with dynamic pacing, custom thumbnails, B-roll integration, end screens, and SEO-friendly formatting."
+   },
+   {
+    "title": "Reels & Short-Form Content",
+    "text": "Viral-ready vertical videos (9:16) for Instagram Reels, TikTok, and YouTube Shorts — fast-paced, trendy, and algorithm-optimized."
+   },
+   {
+    "title": "Explainer Videos",
+    "text": "Clear, engaging explainer videos that simplify complex services or products into concise narratives that convert viewers into customers."
+   },
+   {
+    "title": "Product Demo Videos",
+    "text": "Dynamic product showcase videos with key feature highlights, close-up shots, and dramatic reveals that generate excitement and drive sales."
+   },
+   {
+    "title": "Testimonial & Event Videos",
+    "text": "Credibility-boosting client testimonials and professionally edited event highlight reels for conferences, launches, and gala nights."
+   }
+  ]
+ },
+ "process": {
+  "label": "Editing Workflow",
+  "h2": "Our Streamlined Production Process",
+  "accent": "Production Process",
+  "desc": "A clear, collaborative process that ensures your final video is always on-brand and on-time.",
+  "items": [
+   {
+    "title": "Brief & Asset Collection",
+    "text": "We begin with a detailed creative brief — understanding your goals, audience, tone, and style. You share all raw footage, logos, music references, and brand assets."
+   },
+   {
+    "title": "Rough Cut & Structure",
+    "text": "Our editors assemble the best footage into a coherent storyline. We define the pacing, narrative arc, and visual hierarchy of the video."
+   },
+   {
+    "title": "Motion Graphics & Effects",
+    "text": "We add titles, lower thirds, transitions, kinetic text, and data visualizations to enrich the visual experience and reinforce key messages."
+   },
+   {
+    "title": "Colour Grading & Sound Design",
+    "text": "We apply cinematic colour grades for the desired mood, add licensed music, sync sound effects, and balance audio levels professionally."
+   },
+   {
+    "title": "Review, Revisions & Final Export",
+    "text": "You review the polished edit. We incorporate your feedback and deliver the final file in all required formats (4K MP4, web-optimized, Instagram/YouTube-ready)."
+   }
+  ]
+ },
+ "cta": {
+  "h2": "Ready to Make Your Brand Unforgettable?",
+  "text": "Partner with Lucknow's most trusted video editing team. Get a free quote and creative consultation today.",
+  "primary": {
+   "label": "Get a Free Quote",
+   "href": "/contact"
+  }
+ },
+ "faq": {
+  "h2": "Frequently Asked Questions",
+  "accent": "Questions",
+  "desc": "Everything you need to know about our video editing and production services.",
+  "items": [
+   {
+    "q": "What video editing software do you use?",
+    "a": "We use industry-standard professional software including Adobe Premiere Pro for video editing, DaVinci Resolve for colour grading, Adobe After Effects for motion graphics, and Adobe Audition for sound design and mixing."
+   },
+   {
+    "q": "How long does it take to edit a video?",
+    "a": "Turnaround depends on the project complexity. A short-form reel (under 60 seconds) is typically delivered within 24–48 hours. A full corporate video or YouTube video (5–10 minutes) takes 3–5 business days. We also offer express delivery for urgent projects."
+   },
+   {
+    "q": "What formats will I receive the final video in?",
+    "a": "We deliver the final video in all formats you require — 4K MP4 for YouTube, web-compressed MP4 for websites, vertical 9:16 format for Reels/TikTok, and broadcast-quality ProRes or H.264 for TV and presentations."
+   },
+   {
+    "q": "Do you provide voiceover or subtitles with the video?",
+    "a": "Yes! We offer professional voiceover recording in Hindi and English, as well as SRT subtitle files and burned-in captions. We can also add auto-animated subtitles for social media content."
+   },
+   {
+    "q": "How many revisions are included?",
+    "a": "We include up to 3 revision rounds in every project. Our goal is your complete satisfaction, so we refine the edit based on your feedback until the video perfectly matches your brand and vision."
+   },
+   {
+    "q": "Can you edit videos for YouTube monetization and SEO?",
+    "a": "Absolutely. We optimize every YouTube video for maximum watch-time — the primary metric for monetization and ranking. We add engaging hooks, dynamic pacing, end screens, chapters, and descriptive on-screen text that boost both retention and discoverability."
+   },
+   {
+    "q": "What raw footage formats do you accept?",
+    "a": "We accept virtually all camera formats — MP4, MOV, AVI, MXF, RAW, R3D, BRAW, ProRes, and more. Whether shot on a DSLR, smartphone, Cinema Camera, or GoPro, we can work with your footage."
+   },
+   {
+    "q": "Do you also create motion graphics and animations for videos?",
+    "a": "Yes. Our editors are also skilled motion designers. We create lower thirds, kinetic typography, animated logos, infographic animations, and custom transitions — everything to make your video stand above the competition."
+   }
+  ]
+ },
+ "slug": "best-video-editing-in-lucknow"
+}

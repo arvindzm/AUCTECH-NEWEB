@@ -1,0 +1,319 @@
+{
+ "meta": {
+  "title": "Best Motion Graphics Service in Lucknow | Auctech IT Solutions",
+  "description": "Professional motion graphics and video animation services in Lucknow by Auctech IT Solutions. Explainer videos, product animations, logo animations and more.",
+  "keywords": "motion graphics lucknow, video animation lucknow, explainer video lucknow, motion graphics service",
+  "og:title": "Best Motion Graphics Service in Lucknow | Auctech IT Solutions",
+  "og:description": "Professional motion graphics and video animation services in Lucknow by Auctech IT Solutions. Explainer videos, product animations, logo animations and more.",
+  "og:url": "https://auctechitsolutions.in/best-motion-graphics-service-in-lucknow",
+  "og:image": "https://auctechitsolutions.in/img/auctech_logo.webp",
+  "canonical": "https://auctechitsolutions.in/best-motion-graphics-service-in-lucknow"
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "serviceType": "Motion Graphics & Video Animation Services",
+   "provider": {
+    "@type": "LocalBusiness",
+    "name": "Auctech IT Solutions",
+    "url": "https://auctechitsolutions.in",
+    "telephone": "+91-9026343351",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "2nd Floor Sana Palace 2, Opp. Sahara Mall, Hazratganj",
+     "addressLocality": "Lucknow",
+     "addressRegion": "Uttar Pradesh",
+     "postalCode": "226001",
+     "addressCountry": "IN"
+    }
+   },
+   "areaServed": {
+    "@type": "City",
+    "name": "Lucknow"
+   },
+   "description": "Premium motion graphics and video animation services in Lucknow including 2D/3D explainer videos, logo animations, product promos, and social media video content."
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is the standard turnaround time for a 60-second video?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A typical high-quality 60-second explainer video takes approximately 10-15 business days."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which software do you use for motion graphics?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We use Adobe After Effects, Cinema 4D, and Adobe Premiere Pro."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide voiceover services in multiple languages?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide professional voiceover services in Hindi, English, and various regional languages."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How many revisions are included in the price?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We include up to 3 rounds of revisions at each major milestone (Script, Storyboard, and Final Animation)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you create content for Instagram Reels and YouTube Shorts?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We specialize in high-impact vertical video content designed specifically for social media feeds."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I own the copyrights to the final video?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, full ownership and copyrights of the final rendered video are transferred to you after final payment."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What information do you need to start my project?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We need your project goal, target audience, preferred animation style, and key messages."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide 3D motion graphics as well?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, alongside standard 2D explainer and kinetic animations, we specialize in high-end 3D motion graphics for product visualizations and brand reveals."
+     }
+    }
+   ]
+  }
+ ],
+ "hero": {
+  "eyebrow": "Dynamic Visuals",
+  "h1": "Best Motion Graphics Service",
+  "accent": "Motion Graphics",
+  "sub": "Breathe life into your ideas with our professional motion graphics and animation services.",
+  "breadcrumb": "Motion Graphics"
+ },
+ "intro": {
+  "label": "",
+  "h2": "Best Motion Graphics Services in Lucknow",
+  "accent": "Services in Lucknow",
+  "paras": [
+   "In today's dynamic digital landscape, capturing attention and sparking engagement is crucial. At Auctech IT Solutions, we understand the power of captivating visuals, which is why we offer the best motion graphics service in Lucknow.",
+   "We are a team of passionate and skilled motion graphics designers who transform static concepts into dynamic and unforgettable experiences. Whether you require an explainer video to simplify complex ideas, a product launch animation to generate excitement, or social media graphics to boost engagement, we are your trusted partner.",
+   "We cater to a wide range of industries, from real estate and education to corporate and retail, ensuring your message is delivered with impact and clarity."
+  ],
+  "image": {
+   "src": "img/montiongraphic-about.webp",
+   "alt": "Best Motion Graphics Service in Lucknow - Auctech IT Solutions"
+  },
+  "cta": null
+ },
+ "stats": [
+  {
+   "value": "500+",
+   "label": "Videos Created"
+  },
+  {
+   "value": "300+",
+   "label": "Happy Clients"
+  },
+  {
+   "value": "10+",
+   "label": "Years Experience"
+  },
+  {
+   "value": "1M+",
+   "label": "Total Views"
+  }
+ ],
+ "why": {
+  "label": "Why Choose Us",
+  "h2": "Why Partner with Auctech IT Solutions?",
+  "accent": "Auctech IT Solutions?",
+  "desc": "We combine creativity with technical excellence to deliver results that move.",
+  "items": [
+   {
+    "title": "Award-Winning Expertise",
+    "text": "Our team comprises top motion graphics designers in Lucknow, renowned for their technical proficiency and artistic vision."
+   },
+   {
+    "title": "Storytelling Through Animation",
+    "text": "We go beyond aesthetics. We craft narratives that resonate with your audience, leaving a lasting impression and driving action."
+   },
+   {
+    "title": "Custom-Tailored Solutions",
+    "text": "We understand that every project is unique. We deliver motion graphic solutions that align perfectly with your brand identity."
+   },
+   {
+    "title": "Seamless Collaboration",
+    "text": "We prioritize open communication, involving you in every step from concept development to the final rendered delivery."
+   }
+  ]
+ },
+ "power": {
+  "label": "The Power of Motion",
+  "h2": "Why Motion Graphics Work for Your Brand",
+  "accent": "Work for Your Brand",
+  "items": [
+   {
+    "title": "Higher Attention Spans",
+    "text": "Moving visuals grab attention 5x faster than static images, ensuring your message isn't scrolled past in busy feeds."
+   },
+   {
+    "title": "Better Information Retention",
+    "text": "Viewers retain 95% of a message when they watch it in a video, compared to only 10% when reading it in text."
+   },
+   {
+    "title": "Increased Engagement",
+    "text": "Motion graphics are shared 12x0% more than text and static images combined on social media platforms."
+   },
+   {
+    "title": "Boost Conversion Rates",
+    "text": "Adding a motion graphic video to your landing page can increase conversion rates by over 80%."
+   }
+  ],
+  "image": {
+   "src": "img/services-img/motion_graphics.webp",
+   "alt": "Motion Graphics Power"
+  }
+ },
+ "services": {
+  "label": "Our Services",
+  "h2": "Comprehensive Animation Services",
+  "accent": "Animation Services",
+  "desc": "From complex explainer videos to slick logo animations, we do it all.",
+  "items": [
+   {
+    "title": "Explainer Videos",
+    "text": "Simplify complex products or services with engaging 2D or 3D explainer videos that educate and convert."
+   },
+   {
+    "title": "Logo Animation",
+    "text": "Breathe life into your brand identity with dynamic logo reveals that add a premium feel to your videos."
+   },
+   {
+    "title": "Product Promos",
+    "text": "Showcase your product's features and benefits with high-impact short-form video content."
+   },
+   {
+    "title": "Social Media Content",
+    "text": "Stop the scroll with eye-catching motion graphics tailored for Instagram Reels, YouTube Shorts, and TikTok."
+   },
+   {
+    "title": "Kinetic Typography",
+    "text": "Deliver powerful messages through stylized, moving text that emphasizes the core value of your content."
+   },
+   {
+    "title": "UI/UX Animation",
+    "text": "Demonstrate your app or software's user interface with smooth, functional, and realistic workflow animations."
+   },
+   {
+    "title": "Corporate Presentations",
+    "text": "Transform boring slide decks into professional video presentations that leave a lasting impact on stakeholders."
+   },
+   {
+    "title": "Character Animation",
+    "text": "Create relatable characters that tell your brand story and build a deeper emotional connection with your audience."
+   },
+   {
+    "title": "Event Motion Graphics",
+    "text": "High-quality visuals for screens at conferences, product launches, and gala events to enhance the atmosphere."
+   }
+  ]
+ },
+ "process": {
+  "label": "Our Process",
+  "h2": "Bespoke Animation Journey",
+  "accent": "Animation Journey",
+  "desc": "Our proven 5-step workflow ensures your motion graphics are delivered on time and on brand.",
+  "items": [
+   {
+    "title": "Discovery & Scripting",
+    "text": "We learn about your goals and craft a compelling script that serves as the foundation for the entire animation."
+   },
+   {
+    "title": "Storyboarding & Design",
+    "text": "Our artists visualize the script through detailed storyboards and style frames to define look and feel."
+   },
+   {
+    "title": "Animation & Motion",
+    "text": "This is where the magic happens! We bring the designs to life using industry-leading animation tools."
+   },
+   {
+    "title": "Sound Design & Effects",
+    "text": "We add professional voiceovers, atmospheric sound effects, and background music to complete the experience."
+   },
+   {
+    "title": "Final Polish & Delivery",
+    "text": "After your final review and tweaks, we deliver the high-resolution files in all necessary web and broadcast formats."
+   }
+  ]
+ },
+ "cta": {
+  "h2": "Ready to Captivate Your Audience?",
+  "text": "At Auctech IT Solutions, we believe in the power of motion to elevate your brand. Contact us today for a free consultation.",
+  "primary": {
+   "label": "Get a Free Quote",
+   "href": "/contact"
+  }
+ },
+ "faq": {
+  "h2": "Frequently Asked Questions",
+  "accent": "Questions",
+  "desc": "Everything you need to know about our video animation services.",
+  "items": [
+   {
+    "q": "What is the standard turnaround time for a 60-second video?",
+    "a": "A typical high-quality 60-second explainer video takes approximately 10-15 business days, including scripting, storyboarding, animation, and voiceover synchronization."
+   },
+   {
+    "q": "Which software do you use for motion graphics?",
+    "a": "We use industry-standard tools including Adobe After Effects for motion, Cinema 4D for 3D elements, and Adobe Premiere Pro for final editing and sound design."
+   },
+   {
+    "q": "Do you provide voiceover services in multiple languages?",
+    "a": "Yes! We provide professional voiceover services in Hindi, English, and various regional languages as per your target audience requirements."
+   },
+   {
+    "q": "How many revisions are included in the price?",
+    "a": "We include up to 3 rounds of revisions at each major milestone (Script, Storyboard, and Final Animation) to ensure the result is exactly what you envisioned."
+   },
+   {
+    "q": "Can you create content for Instagram Reels and YouTube Shorts?",
+    "a": "Absolutely! We specialize in creating high-impact vertical video content (9:16 aspect ratio) designed specifically to grab attention in social media feeds."
+   },
+   {
+    "q": "Do I own the copyrights to the final video?",
+    "a": "Yes, once the final payment is cleared, full ownership and copyrights of the final rendered video are transferred to you for use across any platform."
+   },
+   {
+    "q": "What information do you need to start my project?",
+    "a": "We initially need your goal for the video, target audience, preferred style (2D, 3D, Typography), and any specific key messages you want to include."
+   },
+   {
+    "q": "Do you provide 3D motion graphics as well?",
+    "a": "Yes, alongside standard 2D explainer and kinetic animations, we specialize in high-end 3D motion graphics for product visualizations and brand reveals."
+   }
+  ]
+ },
+ "slug": "best-motion-graphics-service-in-lucknow"
+}

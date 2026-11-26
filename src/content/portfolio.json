@@ -1,0 +1,705 @@
+{
+ "filters": [
+  {
+   "id": "all",
+   "label": "All Work"
+  },
+  {
+   "id": "3d-walkthrough",
+   "label": "3D Walkthrough"
+  },
+  {
+   "id": "interior-exterior",
+   "label": "Interior & Exterior"
+  },
+  {
+   "id": "graphic-design",
+   "label": "Graphic Design"
+  },
+  {
+   "id": "website",
+   "label": "Website Designing"
+  },
+  {
+   "id": "floor-plan",
+   "label": "Floor Plan"
+  }
+ ],
+ "items": [
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/1.webp",
+   "alt": "3D Walkthrough 1"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/2.webp",
+   "alt": "3D Walkthrough 2"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/3.webp",
+   "alt": "3D Walkthrough 3"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/4.webp",
+   "alt": "3D Walkthrough 4"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/5.webp",
+   "alt": "3D Walkthrough 5"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/6.webp",
+   "alt": "3D Walkthrough 6"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/7.webp",
+   "alt": "3D Walkthrough 7"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/8.webp",
+   "alt": "3D Walkthrough 8"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/9.webp",
+   "alt": "3D Walkthrough 9"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/10.webp",
+   "alt": "3D Walkthrough 10"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/11.webp",
+   "alt": "3D Walkthrough 11"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/12.webp",
+   "alt": "3D Walkthrough 12"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/13.webp",
+   "alt": "3D Walkthrough 13"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/14.webp",
+   "alt": "3D Walkthrough 14"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/15.webp",
+   "alt": "3D Walkthrough 15"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/16.webp",
+   "alt": "3D Walkthrough 16"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/17.webp",
+   "alt": "3D Walkthrough 17"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/18.webp",
+   "alt": "3D Walkthrough 18"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/19.webp",
+   "alt": "3D Walkthrough 19"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/20.webp",
+   "alt": "3D Walkthrough 20"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/21.webp",
+   "alt": "3D Walkthrough 21"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/22.webp",
+   "alt": "3D Walkthrough 22"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/23.webp",
+   "alt": "3D Walkthrough 23"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/24.webp",
+   "alt": "3D Walkthrough 24"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/25.webp",
+   "alt": "3D Walkthrough 25"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/26.webp",
+   "alt": "3D Walkthrough 26"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/27.webp",
+   "alt": "3D Walkthrough 27"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/28.webp",
+   "alt": "3D Walkthrough 28"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/29.webp",
+   "alt": "3D Walkthrough 29"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/30.webp",
+   "alt": "3D Walkthrough 30"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/31.webp",
+   "alt": "3D Walkthrough 31"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/32.webp",
+   "alt": "3D Walkthrough 32"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/33.webp",
+   "alt": "3D Walkthrough 33"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/34.webp",
+   "alt": "3D Walkthrough 34"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/35.webp",
+   "alt": "3D Walkthrough 35"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/36.webp",
+   "alt": "3D Walkthrough 36"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/37.webp",
+   "alt": "3D Walkthrough 37"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/38.webp",
+   "alt": "3D Walkthrough 38"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/39.webp",
+   "alt": "3D Walkthrough 39"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/40.webp",
+   "alt": "3D Walkthrough 40"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/41.webp",
+   "alt": "3D Walkthrough 41"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/42.webp",
+   "alt": "3D Walkthrough 42"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/43.webp",
+   "alt": "3D Walkthrough 43"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/44.webp",
+   "alt": "3D Walkthrough 44"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/45.webp",
+   "alt": "3D Walkthrough 45"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/46.webp",
+   "alt": "3D Walkthrough 46"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/47.webp",
+   "alt": "3D Walkthrough 47"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/48.webp",
+   "alt": "3D Walkthrough 48"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/49.webp",
+   "alt": "3D Walkthrough 49"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/50.webp",
+   "alt": "3D Walkthrough 50"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/51.webp",
+   "alt": "3D Walkthrough 51"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/52.webp",
+   "alt": "3D Walkthrough 52"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/53.webp",
+   "alt": "3D Walkthrough 53"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/54.webp",
+   "alt": "3D Walkthrough 54"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/55.webp",
+   "alt": "3D Walkthrough 55"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/56.webp",
+   "alt": "3D Walkthrough 56"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/57.webp",
+   "alt": "3D Walkthrough 57"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/58.webp",
+   "alt": "3D Walkthrough 58"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/59.webp",
+   "alt": "3D Walkthrough 59"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/60.webp",
+   "alt": "3D Walkthrough 60"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/61.webp",
+   "alt": "3D Walkthrough 61"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/62.webp",
+   "alt": "3D Walkthrough 62"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/63.webp",
+   "alt": "3D Walkthrough 63"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/64.webp",
+   "alt": "3D Walkthrough 64"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/65.webp",
+   "alt": "3D Walkthrough 65"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/66.webp",
+   "alt": "3D Walkthrough 66"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/67.webp",
+   "alt": "3D Walkthrough 67"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/68.webp",
+   "alt": "3D Walkthrough 68"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/69.webp",
+   "alt": "3D Walkthrough 69"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/70.webp",
+   "alt": "3D Walkthrough 70"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/71.webp",
+   "alt": "3D Walkthrough 71"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/72.webp",
+   "alt": "3D Walkthrough 72"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/73.webp",
+   "alt": "3D Walkthrough 73"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/74.webp",
+   "alt": "3D Walkthrough 74"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/75.webp",
+   "alt": "3D Walkthrough 75"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/76.webp",
+   "alt": "3D Walkthrough 76"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/77.webp",
+   "alt": "3D Walkthrough 77"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/78.webp",
+   "alt": "3D Walkthrough 78"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/79.webp",
+   "alt": "3D Walkthrough 79"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/80.webp",
+   "alt": "3D Walkthrough 80"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/81.webp",
+   "alt": "3D Walkthrough 81"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/82.webp",
+   "alt": "3D Walkthrough 82"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/83.webp",
+   "alt": "3D Walkthrough 83"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/84.webp",
+   "alt": "3D Walkthrough 84"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/85.webp",
+   "alt": "3D Walkthrough 85"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/86.webp",
+   "alt": "3D Walkthrough 86"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/87.webp",
+   "alt": "3D Walkthrough 87"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/88.webp",
+   "alt": "3D Walkthrough 88"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/89.webp",
+   "alt": "3D Walkthrough 89"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/90.webp",
+   "alt": "3D Walkthrough 90"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/91.webp",
+   "alt": "3D Walkthrough 91"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/92.webp",
+   "alt": "3D Walkthrough 92"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/93.webp",
+   "alt": "3D Walkthrough 93"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/94.webp",
+   "alt": "3D Walkthrough 94"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/95.webp",
+   "alt": "3D Walkthrough 95"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/96.webp",
+   "alt": "3D Walkthrough 96"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/97.webp",
+   "alt": "3D Walkthrough 97"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/98.webp",
+   "alt": "3D Walkthrough 98"
+  },
+  {
+   "category": "3d-walkthrough",
+   "src": "img/3d-view/99.webp",
+   "alt": "3D Walkthrough 99"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/1.webp",
+   "alt": "Floor Plan 1"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/2.webp",
+   "alt": "Floor Plan 2"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/3.webp",
+   "alt": "Floor Plan 3"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/4.webp",
+   "alt": "Floor Plan 4"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/5.webp",
+   "alt": "Floor Plan 5"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/6.webp",
+   "alt": "Floor Plan 6"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/7.webp",
+   "alt": "Floor Plan 7"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/8.webp",
+   "alt": "Floor Plan 8"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/9.webp",
+   "alt": "Floor Plan 9"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/10.webp",
+   "alt": "Floor Plan 10"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/11.webp",
+   "alt": "Floor Plan 11"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/12.webp",
+   "alt": "Floor Plan 12"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/13.webp",
+   "alt": "Floor Plan 13"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/14.webp",
+   "alt": "Floor Plan 14"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/15.webp",
+   "alt": "Floor Plan 15"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/16.webp",
+   "alt": "Floor Plan 16"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/17.webp",
+   "alt": "Floor Plan 17"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/18.webp",
+   "alt": "Floor Plan 18"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/19.webp",
+   "alt": "Floor Plan 19"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/20.webp",
+   "alt": "Floor Plan 20"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/21.webp",
+   "alt": "Floor Plan 21"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/22.webp",
+   "alt": "Floor Plan 22"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/23.webp",
+   "alt": "Floor Plan 23"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/24.webp",
+   "alt": "Floor Plan 24"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/25.webp",
+   "alt": "Floor Plan 25"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/26.webp",
+   "alt": "Floor Plan 26"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/27.webp",
+   "alt": "Floor Plan 27"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/28.webp",
+   "alt": "Floor Plan 28"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/29.webp",
+   "alt": "Floor Plan 29"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/30.webp",
+   "alt": "Floor Plan 30"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/31.webp",
+   "alt": "Floor Plan 31"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/32.webp",
+   "alt": "Floor Plan 32"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/33.webp",
+   "alt": "Floor Plan 33"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/34.webp",
+   "alt": "Floor Plan 34"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/35.webp",
+   "alt": "Floor Plan 35"
+  },
+  {
+   "category": "floor-plan",
+   "src": "img/floor-plan/36.webp",
+   "alt": "Floor Plan 36"
+  }
+ ]
+}

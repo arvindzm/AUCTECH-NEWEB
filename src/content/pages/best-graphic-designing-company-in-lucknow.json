@@ -1,0 +1,319 @@
+{
+ "meta": {
+  "title": "Best Graphic Designing Company in Lucknow | Auctech IT Solutions",
+  "description": "Auctech IT Solutions - top graphic design company in Lucknow. Logo design, brochures, banners, social media graphics and complete brand identity design.",
+  "keywords": "graphic designing company lucknow, logo design lucknow, brochure design lucknow, graphic design agency lucknow",
+  "og:title": "Best Graphic Designing Company in Lucknow | Auctech IT Solutions",
+  "og:description": "Auctech IT Solutions - top graphic design company in Lucknow. Logo design, brochures, banners, social media graphics and complete brand identity design.",
+  "og:url": "https://auctechitsolutions.in/best-graphic-designing-company-in-lucknow",
+  "og:image": "https://auctechitsolutions.in/img/auctech_logo.webp",
+  "canonical": "https://auctechitsolutions.in/best-graphic-designing-company-in-lucknow"
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "serviceType": "Graphic Design Services",
+   "provider": {
+    "@type": "LocalBusiness",
+    "name": "Auctech IT Solutions",
+    "url": "https://auctechitsolutions.in",
+    "telephone": "+91-9026343351",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "2nd Floor Sana Palace 2, Opp. Sahara Mall, Hazratganj",
+     "addressLocality": "Lucknow",
+     "addressRegion": "Uttar Pradesh",
+     "postalCode": "226001",
+     "addressCountry": "IN"
+    }
+   },
+   "areaServed": {
+    "@type": "City",
+    "name": "Lucknow"
+   },
+   "description": "Professional graphic design services in Lucknow including logo design, branding, social media creatives, packaging, UI/UX, and marketing materials."
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What are the benefits of hiring a professional graphic designer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Professional graphic designers create visuals that are strategically effective, develop cohesive visual identities, build brand trust, and drive measurable business results."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does graphic design cost in Lucknow?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Logo design starts from ₹5,000, social media packages from ₹3,000/month, and complete brand identity projects from ₹15,000."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What software do you use for graphic design?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We use Adobe Photoshop, Illustrator, InDesign, Figma, and After Effects for motion graphics."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to design a logo?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A standard logo design project typically takes 5-10 business days including concept development and revisions."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you offer revisions?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we include multiple revision rounds in every project until you are 100% satisfied."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you create designs for both print and digital?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We deliver files optimized for both print (CMYK, 300 DPI) and digital (RGB, web-optimized) formats."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why choose Auctech IT Solutions for graphic design?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "With 10+ years of experience, 1000+ designs delivered, and a team of passionate designers, we are Lucknow's most trusted graphic design company."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you offer custom illustrations?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, our talented team can create custom illustrations tailored to your brand's unique style, enhancing your digital presence and marketing materials."
+     }
+    }
+   ]
+  }
+ ],
+ "hero": {
+  "eyebrow": "Visual Storytelling",
+  "h1": "Best Graphic Designing Company",
+  "accent": "Graphic Designing",
+  "sub": "Creative designs that speak louder than words. From logos to branding materials, we create visual magic.",
+  "breadcrumb": "Graphic Design"
+ },
+ "intro": {
+  "label": "",
+  "h2": "Discover the Best Graphic Designing Company in Lucknow",
+  "accent": "Graphic Designing Company",
+  "paras": [
+   "Looking for the best graphic designing company in Lucknow? Auctech IT Solutions delivers exceptional visual solutions — from eye-catching logos and brand identities to stunning marketing materials that captivate your audience and drive results.",
+   "In today's competitive landscape, where attention spans are shorter than ever, captivating visuals are key to success. Our experienced designers combine creativity with strategic thinking to craft designs that not only look premium but also deliver measurable business impact.",
+   "Whether you need a complete brand identity overhaul or individual design assets, we bring your vision to life with precision and artistic excellence."
+  ],
+  "image": {
+   "src": "img/graphic_design_about.webp",
+   "alt": "Best Graphic Designing Company in Lucknow - Auctech IT Solutions"
+  },
+  "cta": null
+ },
+ "stats": [
+  {
+   "value": "1000+",
+   "label": "Designs Created"
+  },
+  {
+   "value": "500+",
+   "label": "Happy Clients"
+  },
+  {
+   "value": "10+",
+   "label": "Years Experience"
+  },
+  {
+   "value": "50+",
+   "label": "Cities Served"
+  }
+ ],
+ "why": {
+  "label": "Why Choose Us",
+  "h2": "Why Choose Auctech IT Solutions?",
+  "accent": "Auctech IT Solutions?",
+  "desc": "What sets us apart as the leading graphic design agency in Lucknow.",
+  "items": [
+   {
+    "title": "Exceptional Design Talent",
+    "text": "Our experienced designers craft creative and strategic visual solutions that elevate your brand identity and resonate with your audience."
+   },
+   {
+    "title": "Data-Driven Approach",
+    "text": "We leverage market research and customer insights to ensure designs are not just beautiful but strategically effective for your goals."
+   },
+   {
+    "title": "Seamless Collaboration",
+    "text": "We work closely with you throughout the entire design journey — from concept to final execution — ensuring complete satisfaction."
+   },
+   {
+    "title": "National Reach",
+    "text": "Regardless of your location, we bring our expertise to you — ensuring a smooth, successful collaboration from anywhere in India."
+   }
+  ]
+ },
+ "power": {
+  "label": "The Power of Design",
+  "h2": "How Graphic Design Grows Your Business",
+  "accent": "Grows Your Business",
+  "items": [
+   {
+    "title": "Boost Brand Recognition",
+    "text": "A strong visual identity — custom logo, color scheme, and fonts — creates a memorable brand experience that sets you apart from the competition."
+   },
+   {
+    "title": "Enhance Marketing Efforts",
+    "text": "High-quality graphics elevate your brochures, social media posts, website banners, and email campaigns, leading to improved engagement and brand recall."
+   },
+   {
+    "title": "Improve Customer Engagement",
+    "text": "Compelling visuals grab attention, tell your story quickly, and connect with your audience on an emotional level, fostering deeper brand loyalty."
+   },
+   {
+    "title": "Increase Sales Conversions",
+    "text": "Professional design builds trust and credibility, ultimately influencing purchasing decisions and driving sales growth."
+   }
+  ],
+  "image": {
+   "src": "img/services-img/graphics-designer.webp",
+   "alt": "Graphic Design Services in Lucknow"
+  }
+ },
+ "services": {
+  "label": "Our Services",
+  "h2": "Complete Graphic Design Services",
+  "accent": "Graphic Design Services",
+  "desc": "Your one-stop shop for all graphic design needs — from logos to complete brand identity systems.",
+  "items": [
+   {
+    "title": "Creative Logo Design",
+    "text": "Unique, memorable logos that perfectly represent your brand essence and leave a lasting impression on your audience."
+   },
+   {
+    "title": "Business Card Design",
+    "text": "Professional, creative business cards that make a powerful first impression and leave a lasting mark at every meeting."
+   },
+   {
+    "title": "Social Media Creatives",
+    "text": "Eye-catching graphics for Instagram, Facebook, LinkedIn, and more — designed to boost engagement and brand awareness."
+   },
+   {
+    "title": "Banner & Ad Design",
+    "text": "Impactful web banners and advertisement designs that grab attention, communicate your message, and drive conversions."
+   },
+   {
+    "title": "Packaging Design",
+    "text": "Functional and visually engaging product packaging that boosts shelf appeal and makes your brand stand out at retail."
+   },
+   {
+    "title": "UI/UX Design",
+    "text": "User-friendly, visually appealing website and app interfaces that provide seamless experiences and increase conversions."
+   },
+   {
+    "title": "Brand Identity Design",
+    "text": "Comprehensive visual identity systems — logos, color palettes, typography, and brand guidelines for total consistency."
+   },
+   {
+    "title": "Brochure & Flyer Design",
+    "text": "Professionally designed brochures, flyers, and print materials that effectively communicate your services and offerings."
+   },
+   {
+    "title": "Calendar & Stationery",
+    "text": "Custom calendars, letterheads, envelopes, and stationery designs that reinforce your brand at every touchpoint."
+   }
+  ]
+ },
+ "process": {
+  "label": "Our Process",
+  "h2": "How We Create Your Design",
+  "accent": "Your Design",
+  "desc": "Our proven 5-step creative process ensures stunning results every time.",
+  "items": [
+   {
+    "title": "Discovery & Brief",
+    "text": "We dive deep into your brand, target audience, competitors, and design preferences to create a comprehensive creative brief."
+   },
+   {
+    "title": "Research & Mood Boards",
+    "text": "Our team researches industry trends, creates mood boards, and explores multiple creative directions to find the perfect visual strategy."
+   },
+   {
+    "title": "Concept Development",
+    "text": "We develop multiple design concepts with different styles, color palettes, and typography options for you to review and choose from."
+   },
+   {
+    "title": "Refinement & Revisions",
+    "text": "Based on your feedback, we refine the chosen concept — adjusting colors, layouts, fonts, and details until it's pixel-perfect."
+   },
+   {
+    "title": "Final Delivery",
+    "text": "We deliver all final files in multiple formats (AI, PSD, PDF, PNG, SVG) optimized for web, print, and social media use."
+   }
+  ]
+ },
+ "cta": {
+  "h2": "Ready to Elevate Your Brand?",
+  "text": "Partner with Lucknow's best graphic design company. Get a free consultation and creative brief today.",
+  "primary": {
+   "label": "Get a Free Quote",
+   "href": "/contact"
+  }
+ },
+ "faq": {
+  "h2": "Frequently Asked Questions",
+  "accent": "Questions",
+  "desc": "Everything you need to know about our graphic design services.",
+  "items": [
+   {
+    "q": "What are the benefits of hiring a professional graphic designer?",
+    "a": "Professional graphic designers possess the skills and experience to create visuals that are strategically effective — not just aesthetically pleasing. They develop a cohesive visual identity that resonates with your target audience, builds brand trust, and drives measurable business results."
+   },
+   {
+    "q": "How much does graphic design cost in Lucknow?",
+    "a": "Pricing varies by project scope. Logo design starts from ₹5,000, social media packages from ₹3,000/month, and complete brand identity projects from ₹15,000. Contact us for a custom quote tailored to your specific requirements."
+   },
+   {
+    "q": "What software do you use for graphic design?",
+    "a": "We use industry-standard tools including Adobe Photoshop, Illustrator, InDesign, and Figma. For motion graphics, we utilize After Effects. This ensures maximum quality and compatibility across all output formats."
+   },
+   {
+    "q": "How long does it take to design a logo?",
+    "a": "A standard logo design project typically takes 5-10 business days, including concept development, client feedback rounds, and final revisions. Rush delivery is available for urgent projects at an additional cost."
+   },
+   {
+    "q": "Do you offer revisions?",
+    "a": "Absolutely! We include multiple revision rounds in every project. We incorporate your feedback on colors, layouts, typography, and details until you are 100% satisfied with the final design output."
+   },
+   {
+    "q": "Can you create designs for both print and digital?",
+    "a": "Yes! We deliver files optimized for both print (CMYK, 300 DPI, bleed marks) and digital (RGB, web-optimized, social media dimensions). You'll receive all necessary file formats for every use case."
+   },
+   {
+    "q": "Why choose Auctech IT Solutions for graphic design?",
+    "a": "With 10+ years of experience, 1000+ designs delivered, and a team of passionate creative professionals, we are Lucknow's most trusted graphic design company. We combine artistic creativity with strategic business thinking to deliver designs that consistently exceed expectations."
+   },
+   {
+    "q": "Do you offer custom illustrations?",
+    "a": "Yes, our talented team can create custom illustrations tailored to your brand's unique style, enhancing your digital presence and marketing materials."
+   }
+  ]
+ },
+ "slug": "best-graphic-designing-company-in-lucknow"
+}

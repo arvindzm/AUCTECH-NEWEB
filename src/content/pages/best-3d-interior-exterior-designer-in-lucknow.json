@@ -1,0 +1,256 @@
+{
+ "meta": {
+  "title": "Best 3D Interior & Exterior Designer in Lucknow | Auctech IT Solutions",
+  "description": "Transform your space with Auctech IT Solutions - best 3D interior and exterior design company in Lucknow. Stunning visualizations for residential and commercial projects.",
+  "keywords": "best 3d interior designer lucknow, 3d exterior design lucknow, interior design visualization lucknow",
+  "og:title": "Best 3D Interior & Exterior Designer in Lucknow | Auctech IT Solutions",
+  "og:description": "Transform your space with Auctech IT Solutions - best 3D interior and exterior design company in Lucknow. Stunning visualizations for residential and commercial projects.",
+  "og:url": "https://auctechitsolutions.in/best-3d-interior-exterior-designer-in-lucknow",
+  "og:image": "https://auctechitsolutions.in/img/auctech_logo.webp",
+  "canonical": "https://auctechitsolutions.in/best-3d-interior-exterior-designer-in-lucknow"
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "serviceType": "3D Interior & Exterior Design",
+   "provider": {
+    "@type": "LocalBusiness",
+    "name": "Auctech IT Solutions",
+    "url": "https://auctechitsolutions.in",
+    "telephone": "+91-9026343351",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "2nd Floor Sana Palace 2, Opp. Sahara Mall, Hazratganj",
+     "addressLocality": "Lucknow",
+     "addressRegion": "Uttar Pradesh",
+     "postalCode": "226001",
+     "addressCountry": "IN"
+    }
+   },
+   "areaServed": {
+    "@type": "City",
+    "name": "Lucknow"
+   },
+   "description": "Premium 3D interior and exterior design, visualization, rendering, and virtual staging services in Lucknow."
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What software do you use for 3D Interior & Exterior Design?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We utilize industry-leading software including Autodesk 3ds Max, V-Ray, Lumion, and SketchUp."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What information do you need to create a 3D rendering?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We typically need architectural drawings (floor plans, elevations, sections), material specifications, and any design inspiration images."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to create a 3D interior rendering?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A standard interior rendering typically takes 3-7 business days. Exterior designs may take 5-10 days."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you offer revisions to the 3D rendering?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely! We include revision rounds in every project until you are 100% satisfied."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much do your 3D Interior & Exterior Design services cost?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our interior rendering services start from ₹8,000 per view. Pricing depends on complexity, space size, and detail level."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you create both interior and exterior renders for the same project?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We offer comprehensive packages that include both interior and exterior visualizations."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why choose Auctech IT Solutions for 3D design in Lucknow?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "With 10+ years of experience, 500+ completed designs, and a dedicated team of 3D artists, we are Lucknow's most trusted 3D design company."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide animated 3D walkthroughs along with static images?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, in addition to high-resolution photorealistic still images, we create fully immersive cinematic 3D walkthrough animations that allow you to virtually tour the designed space."
+     }
+    }
+   ]
+  }
+ ],
+ "hero": {
+  "eyebrow": "Design Excellence",
+  "h1": "Best 3D Interior & Exterior Designer",
+  "accent": "Interior & Exterior",
+  "sub": "Transforming spaces with world-class 3D interior and exterior design services in Lucknow.",
+  "breadcrumb": "Interior & Exterior"
+ },
+ "intro": {
+  "label": "",
+  "h2": "Reimagine Your Space with 3D Interior & Exterior Design",
+  "accent": "3D Interior & Exterior Design",
+  "paras": [
+   "Dominate the world of design visualization with Auctech IT Solutions, the leading provider of 3D Interior & Exterior Design services in Lucknow. We transform your design concepts into stunningly realistic 3D renderings, allowing you to experience your dream space before construction even begins.",
+   "Ditch the limitations of traditional 2D sketches and floor plans. Our advanced 3D technology creates photorealistic digital models of both internal and external environments, offering a level of clarity and immersion that traditional methods simply cannot match.",
+   "Whether it's a modern residential villa, commercial showroom, or luxury apartment — we bring every detail to life with precision and artistry."
+  ],
+  "image": {
+   "src": "img/img_1.webp",
+   "alt": "Best 3D Interior & Exterior Designer in Lucknow - Auctech IT Solutions"
+  },
+  "cta": null
+ },
+ "stats": [
+  {
+   "value": "500+",
+   "label": "Designs Rendered"
+  },
+  {
+   "value": "350+",
+   "label": "Happy Clients"
+  },
+  {
+   "value": "10+",
+   "label": "Years Experience"
+  },
+  {
+   "value": "100%",
+   "label": "Client Satisfaction"
+  }
+ ],
+ "services": {
+  "label": "Our Services",
+  "h2": "3D Design Services We Offer",
+  "accent": "Services We Offer",
+  "desc": "From living rooms to landscapes, we create stunning visualizations for every space.",
+  "items": [
+   {
+    "title": "3D Interior Design",
+    "text": "Photorealistic interior visualizations — living rooms, bedrooms, kitchens, offices — with accurate materials, lighting, and furnishing details."
+   },
+   {
+    "title": "3D Exterior Design",
+    "text": "Stunning exterior renderings of residential and commercial buildings with accurate landscaping, facades, and environmental context."
+   },
+   {
+    "title": "Photorealistic Rendering",
+    "text": "Ultra-high-resolution still images indistinguishable from real photographs — perfect for marketing brochures and client presentations."
+   },
+   {
+    "title": "Virtual Staging",
+    "text": "Digitally furnish and decorate empty spaces with photorealistic furniture, art, and accessories — ideal for real estate listings."
+   },
+   {
+    "title": "Lighting & Material Studies",
+    "text": "Test different lighting scenarios, material combinations, and color palettes virtually before committing to physical changes."
+   },
+   {
+    "title": "3D Walkthrough Animation",
+    "text": "Cinematic fly-through animations showcasing interior and exterior spaces with smooth camera movements and realistic ambiance."
+   }
+  ]
+ },
+ "process": {
+  "label": "Our Process",
+  "h2": "How We Create Your 3D Design",
+  "accent": "3D Design",
+  "desc": "Our proven 5-step process ensures stunning results and seamless collaboration.",
+  "items": [
+   {
+    "title": "Design Brief & Consultation",
+    "text": "We discuss your vision, style preferences, space requirements, and project goals to create a comprehensive design brief."
+   },
+   {
+    "title": "Floor Plan & Reference Review",
+    "text": "Our team analyzes your architectural drawings, floor plans, material specifications, and inspiration images to understand every detail."
+   },
+   {
+    "title": "3D Modeling & Texturing",
+    "text": "We build a detailed 3D model of your space using industry-standard software like 3ds Max and V-Ray, applying realistic textures and materials."
+   },
+   {
+    "title": "Lighting, Rendering & Refinement",
+    "text": "We add natural and artificial lighting, render photorealistic images, and refine every detail until the visualization is pixel-perfect."
+   },
+   {
+    "title": "Review & Final Delivery",
+    "text": "We present the output for your review, incorporate feedback, and deliver in your preferred format — high-res images, 4K video, or VR-ready."
+   }
+  ]
+ },
+ "cta": {
+  "h2": "Ready to Transform Your Space?",
+  "text": "Partner with Lucknow's best 3D interior & exterior design company. Get a free consultation and quote today.",
+  "primary": {
+   "label": "Get a Free Quote",
+   "href": "/contact"
+  }
+ },
+ "faq": {
+  "h2": "Frequently Asked Questions",
+  "accent": "Questions",
+  "desc": "Everything you need to know about our 3D interior & exterior design services.",
+  "items": [
+   {
+    "q": "What software do you use for 3D Interior & Exterior Design?",
+    "a": "We utilize industry-leading software including Autodesk 3ds Max, V-Ray, Lumion, and SketchUp. This allows us to deliver photorealistic renderings with stunning accuracy in lighting, materials, and spatial detail."
+   },
+   {
+    "q": "What information do you need to create a 3D rendering?",
+    "a": "We typically need architectural drawings (floor plans, elevations, sections), material specifications, and any design inspiration images. If you don't have detailed blueprints, we can work with sketches or rough ideas."
+   },
+   {
+    "q": "How long does it take to create a 3D interior rendering?",
+    "a": "The timeframe varies depending on complexity and detail level. A standard interior rendering typically takes 3-7 business days. Exterior designs may take 5-10 days. We also offer express delivery for urgent projects."
+   },
+   {
+    "q": "Do you offer revisions to the 3D rendering?",
+    "a": "Absolutely! We include revision rounds in every project. We incorporate your feedback on materials, colors, furniture placement, lighting, and camera angles until you are 100% satisfied with the final output."
+   },
+   {
+    "q": "How much do your 3D Interior & Exterior Design services cost?",
+    "a": "Pricing is project-specific and depends on complexity, space size, and detail level. Our interior rendering services start from ₹8,000 per view. Contact us for a free, customized quote tailored to your project."
+   },
+   {
+    "q": "Can you create both interior and exterior renders for the same project?",
+    "a": "Yes! We offer comprehensive packages that include both interior and exterior visualizations. This gives a complete picture of your project and is ideal for real estate marketing, client presentations, and architectural approvals."
+   },
+   {
+    "q": "Why choose Auctech IT Solutions for 3D design in Lucknow?",
+    "a": "With 10+ years of experience, 500+ completed designs, and a dedicated team of 3D artists, we are Lucknow's most trusted 3D design company. We combine cutting-edge technology with creative mastery to deliver results that consistently exceed expectations."
+   },
+   {
+    "q": "Do you provide animated 3D walkthroughs along with static images?",
+    "a": "Yes, in addition to high-resolution photorealistic still images, we create fully immersive cinematic 3D walkthrough animations that allow you to virtually tour the designed space."
+   }
+  ]
+ },
+ "slug": "best-3d-interior-exterior-designer-in-lucknow"
+}

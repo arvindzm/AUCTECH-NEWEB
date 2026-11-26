@@ -1,0 +1,314 @@
+{
+ "meta": {
+  "title": "Best Software Development Company in Lucknow | Auctech IT Solutions",
+  "description": "Custom software development services in Lucknow by Auctech IT Solutions. ERP, CRM, mobile apps, SaaS products and enterprise software solutions.",
+  "keywords": "software development company lucknow, custom software lucknow, app development lucknow",
+  "og:title": "Best Software Development Company in Lucknow | Auctech IT Solutions",
+  "og:description": "Custom software development services in Lucknow by Auctech IT Solutions. ERP, CRM, mobile apps, SaaS products and enterprise software solutions.",
+  "og:url": "https://auctechitsolutions.in/best-software-development-company-in-lucknow",
+  "og:image": "https://auctechitsolutions.in/img/auctech_logo.webp",
+  "canonical": "https://auctechitsolutions.in/best-software-development-company-in-lucknow"
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "serviceType": "Custom Software Development Services",
+   "provider": {
+    "@type": "LocalBusiness",
+    "name": "Auctech IT Solutions",
+    "url": "https://auctechitsolutions.in",
+    "telephone": "+91-9026343351",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "2nd Floor Sana Palace 2, Opp. Sahara Mall, Hazratganj",
+     "addressLocality": "Lucknow",
+     "addressRegion": "Uttar Pradesh",
+     "postalCode": "226001",
+     "addressCountry": "IN"
+    }
+   },
+   "areaServed": {
+    "@type": "City",
+    "name": "Lucknow"
+   },
+   "description": "Professional custom software development company in Lucknow. We expertise in developing ERPs, CRMs, Hospital Management Systems, Real Estate software, and custom automated billing solutions."
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What technologies do you use for software development?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Auctech IT Solutions, we utilize modern and highly stable tech stacks. Our backend expertise includes PHP (Laravel/CodeIgniter), Node.js, and Python, while our frontend spans React, Vue.js, and angular. We deploy on top-tier cloud providers like AWS and Google Cloud to ensure 99.9% uptime."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Will I own the source code of my custom software?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely. Once the project is fully completed and outstanding invoices are cleared, we transfer 100% intellectual property rights and the complete source code to your business as per our contract terms."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does custom software development cost?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost entirely depends on the complexity, scale, and features required. A simple billing software will cost significantly less than an enterprise-grade Hospital Management System. We provide free, transparent, and highly detailed scopes of work and pricing estimates before you commit."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you integrate my existing tools and databases?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. A critical part of our service involves securely bridging new software with your legacy systems, payment gateways, and third-party APIs (like WhatsApp API, MailChimp, existing ERP solutions, etc.) to ensure a seamless operational flow."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide post-launch support and maintenance?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide continuous technical support, bug tracking, feature scaling, and general maintenance packages (SLAs). We don’t just launch your software; we make sure it runs optimally 24/7/365."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does custom software development take a long time?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Developing custom software depends on the scale. An MVP (Minimum Viable Product) can take 2-3 months, while complex enterprise suites can take 6 months. We break down the project into agile milestones for early deliverables."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you upgrade my existing legacy software?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We can refactor existing code, optimize database performance, migrate your legacy systems to the cloud, and modernize outdated interfaces without losing historic data."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Will my custom software be mobile compatible?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We specialize in building responsive web applications that work perfectly on mobile browsers, as well as developing dedicated native or cross-platform mobile apps for iOS and Android."
+     }
+    }
+   ]
+  }
+ ],
+ "hero": {
+  "eyebrow": "Custom Software",
+  "h1": "Best Software Development Company",
+  "accent": "Software Development",
+  "sub": "Scalable, secure, and efficient custom software solutions to streamline your business operations.",
+  "breadcrumb": "Software Development"
+ },
+ "intro": {
+  "label": "Enterprise Solutions",
+  "h2": "Auctech IT Solutions Powers Your Success",
+  "accent": "Powers Your Success",
+  "paras": [
+   "In today's fast-paced digital era, off-the-shelf software often falls short. At Auctech IT Solutions, the best software development company in Lucknow, we build custom solutions precisely engineered around your business logic, driving efficiency and hyper-growth.",
+   "Whether you need an advanced Real Estate CRM to close deals faster or a robust Hospital Management System to streamline patient care, our expert developers deliver secure, scalable, and high-performance software architecture."
+  ],
+  "image": {
+   "src": "img/software-development-about.webp",
+   "alt": "Best Software Development Company in Lucknow"
+  },
+  "cta": {
+   "label": "Discuss Your Project",
+   "href": "/contact"
+  }
+ },
+ "stats": [
+  {
+   "value": "200+",
+   "label": "Software Delivered"
+  },
+  {
+   "value": "100%",
+   "label": "Secure Architecture"
+  },
+  {
+   "value": "10+",
+   "label": "Years Expertise"
+  },
+  {
+   "value": "24/7",
+   "label": "Technical Support"
+  }
+ ],
+ "why": {
+  "label": "The Auctech Advantage",
+  "h2": "Why We Are Lucknow's Top Choice",
+  "accent": "Top Choice",
+  "desc": "We go beyond just writing code. We partner with you to understand your core operational challenges and engineer bespoke solutions that deliver immediate ROI.",
+  "items": [
+   {
+    "title": "Expert Dev Team",
+    "text": "Our engineers possess deep technical expertise across multiple frameworks and enterprise domains."
+   },
+   {
+    "title": "Agile Methodology",
+    "text": "We deploy iterative sprints, ensuring complete project transparency and rapid adaptability."
+   },
+   {
+    "title": "Cost-Effective",
+    "text": "Enterprise-grade software architecture delivered with competitive pricing and clear timelines."
+   },
+   {
+    "title": "Unwavering Support",
+    "text": "Post-launch maintenance, dedicated SLAs, and proactive monitoring to ensure zero downtime."
+   }
+  ]
+ },
+ "power": {
+  "label": "",
+  "h2": "Transform Your Operations With Tailored Automation",
+  "accent": "Tailored Automation",
+  "items": [
+   {
+    "title": "Unmatched Scalability",
+    "text": "As your business grows from hundreds to millions of transactions, custom software scales effortlessly without expensive licensing tiers."
+   },
+   {
+    "title": "Fortified Security",
+    "text": "Protect your sensitive data. Purpose-built software offers far superior defense against vulnerabilities compared to open-market alternatives."
+   },
+   {
+    "title": "Seamless Integration",
+    "text": "Connect your custom platform natively via secure APIs to third-party tools, payment gateways, and existing legacy systems."
+   }
+  ],
+  "image": null
+ },
+ "services": {
+  "label": "Domain Expertise",
+  "h2": "Industry-Specific Software Solutions",
+  "accent": "Software Solutions",
+  "desc": "Purpose-built digital architectures across verticals.",
+  "items": [
+   {
+    "title": "Real Estate CRM",
+    "text": "Manage leads, schedule site visits, issue quotes, and close deals faster with our advanced property management software."
+   },
+   {
+    "title": "Inventory Management",
+    "text": "Gain complete visibility. Track stock levels in real-time, automate POs, and optimize supply chain logistics efficiently."
+   },
+   {
+    "title": "Restaurant POS",
+    "text": "Cloud-based billing, table management, KOT integration, and detailed analytics to boost your restaurant's profitability."
+   },
+   {
+    "title": "Garment ERP",
+    "text": "Track raw materials, monitor production lines, identify fast-moving apparel, and handle entire wholesale/retail distribution."
+   },
+   {
+    "title": "Hotel Management",
+    "text": "Streamline frontend reservations, housekeeping tracking, channel management, and guest experience through one suite."
+   },
+   {
+    "title": "School / EdTech Portals",
+    "text": "Connect educators, students, and parents. Feature-rich modules for attendance, fee collection, LMS, and grading."
+   },
+   {
+    "title": "Hospital Management",
+    "text": "Secure HIPAA-compliant systems for OPD/IPD scheduling, EHRs, pharmacy inventory, and lab integrations."
+   },
+   {
+    "title": "Custom Billing Software",
+    "text": "Generate highly compliant GST invoices, handle recurrent subscription plans, and manage corporate payroll securely."
+   },
+   {
+    "title": "SaaS Development",
+    "text": "End-to-end development of cloud-native multi-tenant SaaS architectures designed to hit massive scalability."
+   }
+  ]
+ },
+ "process": {
+  "label": "Development Lifecycle",
+  "h2": "Our Bulletproof Delivery Process",
+  "accent": "Delivery Process",
+  "desc": "From napkin sketch to enterprise deployment, transparency at every tier.",
+  "items": [
+   {
+    "title": "Discovery & Architecture",
+    "text": "We analyze your business workflows, define technical requirements, and draft the core database schema and system architecture."
+   },
+   {
+    "title": "UI/UX Prototyping",
+    "text": "Creating interactive wireframes and polished designs. You see exactly how the software will function before a single line of code is written."
+   },
+   {
+    "title": "Agile Development",
+    "text": "Our engineers build the backend logic and frontend interfaces in sprint cycles, keeping you updated with frequent demonstrable builds."
+   },
+   {
+    "title": "Rigorous QA Testing",
+    "text": "We execute brutal manual and automated testing, including penetration tests, load tests, and cross-platform compatibility checks."
+   },
+   {
+    "title": "Deployment & Scaling",
+    "text": "Flawless transition to live production servers (AWS/DigitalOcean/Azure), complete with staff training and ongoing SLA maintenance."
+   }
+  ]
+ },
+ "cta": {
+  "h2": "Ready to Automate Your Business?",
+  "text": "Whether it's a dynamic CRM, an enterprise ERP, or a secure SaaS platform, our engineering team in Lucknow is ready to execute.",
+  "primary": {
+   "label": "Get Your Free Architecture Consultation",
+   "href": "/contact"
+  }
+ },
+ "faq": {
+  "h2": "Frequently Asked Questions",
+  "accent": "Questions",
+  "desc": "Insights regarding our engineering timelines, costs, and software capabilities.",
+  "items": [
+   {
+    "q": "What technologies do you use for software development?",
+    "a": "At Auctech IT Solutions, we utilize modern and highly stable tech stacks. Our backend expertise includes PHP (Laravel/CodeIgniter), Node.js, and Python, while our frontend spans React, Vue.js, and angular. We deploy on top-tier cloud providers like AWS and Google Cloud to ensure 99.9% uptime."
+   },
+   {
+    "q": "Will I own the source code of my custom software?",
+    "a": "Absolutely. Once the project is fully completed and outstanding invoices are cleared, we transfer 100% intellectual property rights and the complete source code to your business as per our contract terms."
+   },
+   {
+    "q": "How much does custom software development cost?",
+    "a": "The cost entirely depends on the complexity, scale, and features required. A simple billing software will cost significantly less than an enterprise-grade Hospital Management System. We provide free, transparent, and highly detailed scopes of work and pricing estimates before you commit."
+   },
+   {
+    "q": "Can you integrate my existing tools and databases?",
+    "a": "Yes. A critical part of our service involves securely bridging new software with your legacy systems, payment gateways, and third-party APIs (like WhatsApp API, MailChimp, existing ERP solutions, etc.) to ensure a seamless operational flow."
+   },
+   {
+    "q": "Do you provide post-launch support and maintenance?",
+    "a": "Yes, we provide continuous technical support, bug tracking, feature scaling, and general maintenance packages (SLAs). We don’t just launch your software; we make sure it runs optimally 24/7/365."
+   },
+   {
+    "q": "Does custom software development take a long time?",
+    "a": "Developing custom software depends on the scale. An MVP (Minimum Viable Product) can take 2-3 months, while complex enterprise suites can take 6 months. We break down the project into agile milestones for early deliverables."
+   },
+   {
+    "q": "Can you upgrade my existing legacy software?",
+    "a": "Yes. We can refactor existing code, optimize database performance, migrate your legacy systems to the cloud, and modernize outdated interfaces without losing historic data."
+   },
+   {
+    "q": "Will my custom software be mobile compatible?",
+    "a": "We specialize in building responsive web applications that work perfectly on mobile browsers, as well as developing dedicated native or cross-platform mobile apps for iOS and Android."
+   }
+  ]
+ },
+ "slug": "best-software-development-company-in-lucknow"
+}

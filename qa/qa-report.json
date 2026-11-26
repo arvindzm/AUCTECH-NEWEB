@@ -1,0 +1,2116 @@
+{
+ "base": "http://localhost:3100",
+ "startedAt": "2026-11-26T04:50:08.003Z",
+ "pages": [
+  {
+   "path": "/",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/about.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/service.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/portfolio.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/blog.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/faq.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/our-team.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/contact.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-digital-marketing-agency-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-web-development-company-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-kanpur.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-meerut.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-varanasi.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-prayagraj.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-agra.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bareilly.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ghaziabad.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-gorakhpur.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-jhansi.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-aligarh.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ayodhya.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-saharanpur.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-azamgarh.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-basti.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-chitrakoot.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-devi-patan.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-mirzapur.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-patna.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-muzaffarpur.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-gaya.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bhagalpur.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-darbhanga.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-rajgir.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bihar-sharif.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-arrah.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-purnia.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-begusarai.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-motihari.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-mumbai.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-pune.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-noida.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ranchi.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-architectural-walkthrough-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-3d-interior-exterior-designer-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-graphic-designing-company-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-motion-graphics-service-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-event-management-company-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/branding-services-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-software-development-company-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-video-editing-in-lucknow.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/career.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/index.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/privacy-policy.php",
+   "viewport": "mobile",
+   "status": 200,
+   "robots": "noindex, follow",
+   "issues": []
+  },
+  {
+   "path": "/",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/about.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/service.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/portfolio.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/blog.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/faq.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/our-team.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/contact.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-digital-marketing-agency-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-web-development-company-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-kanpur.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-meerut.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-varanasi.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-prayagraj.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-agra.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bareilly.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ghaziabad.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-gorakhpur.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-jhansi.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-aligarh.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ayodhya.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-saharanpur.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-azamgarh.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-basti.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-chitrakoot.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-devi-patan.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-mirzapur.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-patna.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-muzaffarpur.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-gaya.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bhagalpur.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-darbhanga.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-rajgir.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bihar-sharif.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-arrah.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-purnia.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-begusarai.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-motihari.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-mumbai.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-pune.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-noida.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ranchi.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-architectural-walkthrough-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-3d-interior-exterior-designer-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-graphic-designing-company-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-motion-graphics-service-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-event-management-company-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/branding-services-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-software-development-company-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-video-editing-in-lucknow.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/career.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/index.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/privacy-policy.php",
+   "viewport": "tablet",
+   "status": 200,
+   "robots": "noindex, follow",
+   "issues": []
+  },
+  {
+   "path": "/",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best 3D Walkthrough Company in Lucknow | Auctech IT Solutions",
+   "h1": "Premium 3D Architectural Walkthroughs & Digital Marketing - Company in Lucknow",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/about.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "About Us | Auctech IT Solutions - Digital Marketing Lucknow",
+   "h1": "About Us",
+   "jsonld": [
+    "LocalBusiness",
+    "AboutPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/service.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Digital Marketing Services Lucknow | SEO, 3D, Web Design - Auctech",
+   "h1": "Our Core Services",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/portfolio.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Portfolio | 3D Walkthrough, Digital Marketing Work - Auctech IT Solutions Lucknow",
+   "h1": "Our Creative Portfolio",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/blog.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Blog | Digital Marketing, SEO & 3D Tips | Auctech IT Solutions",
+   "h1": "Our Latest Blogs",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/faq.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "150+ Technical FAQs: 3D Walkthrough & Digital Marketing | Auctech",
+   "h1": "Digital Marketing & 3D Walkthrough 150+ FAQs Answered",
+   "jsonld": [
+    "LocalBusiness",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/our-team.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Our Team | Auctech IT Solutions Lucknow",
+   "h1": "Meet Our Creative Team",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/contact.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Contact Auctech IT Solutions | +91-9565443351",
+   "h1": "Let's Build Something Great Together",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-digital-marketing-agency-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best Digital Marketing Agency in Lucknow | Auctech IT Solutions",
+   "h1": "Best Digital Marketing Agency",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-web-development-company-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best Web Development Company in Lucknow | Auctech IT Solutions",
+   "h1": "Best Web Development Company",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Lucknow | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-kanpur.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Kanpur | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-meerut.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Meerut | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-varanasi.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Varanasi | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-prayagraj.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Prayagraj | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-agra.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Agra | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bareilly.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Bareilly | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ghaziabad.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Ghaziabad | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-gorakhpur.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Gorakhpur | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-jhansi.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Jhansi | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-aligarh.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Aligarh | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ayodhya.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Ayodhya | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-saharanpur.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Saharanpur | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-azamgarh.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Azamgarh | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-basti.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Basti | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-chitrakoot.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Chitrakoot | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-devi-patan.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Devi Patan | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-mirzapur.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Mirzapur | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-patna.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Patna | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-muzaffarpur.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Muzaffarpur | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-gaya.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Gaya | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bhagalpur.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Bhagalpur | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-darbhanga.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Darbhanga | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-rajgir.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Rajgir | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-bihar-sharif.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Bihar Sharif | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-arrah.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Arrah | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-purnia.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Purnia | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-begusarai.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Begusarai | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-motihari.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Motihari | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-mumbai.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Mumbai | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-pune.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Pune | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-noida.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Noida | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-walkthrough-in-ranchi.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Walkthrough in Ranchi | Best 3D Walkthrough Company | Auctech",
+   "h1": "3D Architectural Walkthrough",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/3d-architectural-walkthrough-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "3D Architectural Walkthrough in Lucknow | Auctech IT Solutions",
+   "h1": "3D Architectural Walkthrough in Lucknow",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-3d-interior-exterior-designer-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best 3D Interior & Exterior Designer in Lucknow | Auctech IT Solutions",
+   "h1": "Best 3D Interior & Exterior Designer",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-graphic-designing-company-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best Graphic Designing Company in Lucknow | Auctech IT Solutions",
+   "h1": "Best Graphic Designing Company",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-motion-graphics-service-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best Motion Graphics Service in Lucknow | Auctech IT Solutions",
+   "h1": "Best Motion Graphics Service",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-event-management-company-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best Event Management Company in Lucknow | Auctech IT Solutions",
+   "h1": "Best Event Management Company",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/branding-services-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Branding Services in Lucknow | Brand Identity Design | Auctech IT Solutions",
+   "h1": "Premium Branding Services",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-software-development-company-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best Software Development Company in Lucknow | Auctech IT Solutions",
+   "h1": "Best Software Development Company",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/best-video-editing-in-lucknow.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best Video Editing Service in Lucknow | Auctech IT Solutions",
+   "h1": "Professional Video Editing",
+   "jsonld": [
+    "LocalBusiness",
+    "Service",
+    "FAQPage"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/career.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Careers | Join Auctech IT Solutions in Lucknow",
+   "h1": "Careers at Auctech",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/index.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Best 3D Walkthrough Company in Lucknow | Auctech IT Solutions",
+   "h1": "Premium 3D Architectural Walkthroughs & Digital Marketing - Company in Lucknow",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": null,
+   "issues": []
+  },
+  {
+   "path": "/privacy-policy.php",
+   "viewport": "desktop",
+   "status": 200,
+   "title": "Privacy Policy | Auctech IT Solutions",
+   "h1": "Privacy Policy",
+   "jsonld": [
+    "LocalBusiness"
+   ],
+   "robots": "noindex, follow",
+   "issues": []
+  }
+ ],
+ "links": {
+  "/": {
+   "from": "/",
+   "status": 200
+  },
+  "/about.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/service.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/best-digital-marketing-agency-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/best-web-development-company-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-architectural-walkthrough-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/best-3d-interior-exterior-designer-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/best-graphic-designing-company-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/best-motion-graphics-service-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/branding-services-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/best-video-editing-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/best-software-development-company-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/best-event-management-company-in-lucknow.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/portfolio.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/blog.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/career.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/contact.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-kanpur.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-meerut.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-varanasi.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-prayagraj.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-agra.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-bareilly.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-ghaziabad.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-gorakhpur.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-jhansi.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-aligarh.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-ayodhya.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-saharanpur.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-azamgarh.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-basti.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-chitrakoot.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-devi-patan.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-mirzapur.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-patna.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-muzaffarpur.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-gaya.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-bhagalpur.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-darbhanga.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-rajgir.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-bihar-sharif.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-arrah.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-purnia.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-begusarai.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-motihari.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-mumbai.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-pune.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-noida.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/3d-walkthrough-in-ranchi.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/our-team.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/faq.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/sitemap.xml": {
+   "from": "(direct)",
+   "status": 200
+  },
+  "/privacy-policy.php": {
+   "from": "/",
+   "status": 200
+  },
+  "/robots.txt": {
+   "from": "(direct)",
+   "status": 200
+  },
+  "/does-not-exist.php": {
+   "from": "(direct)",
+   "status": 404
+  },
+  "/blog/how-to-choose-right-software-development-partner": {
+   "from": "(direct)",
+   "status": 404
+  }
+ },
+ "images": {
+  "http://localhost:3100/_next/image?url=%2Fbrand%2Fauctech-logo-white.png&w=64&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fhero-3d.png&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fabout-us.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Ffeature.jpeg&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F1.webp&w=768&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F2.webp&w=768&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F3.webp&w=768&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F4.webp&w=768&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F5.webp&w=768&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F6.webp&w=768&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F7.webp&w=768&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F8.webp&w=768&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fbrand%2Fauctech-logo-white.png&w=96&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2Fdigital-marketing.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2Fwebsite-software.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2F3D-Architectural-Walkthroughs.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2FArchitectural-Planning.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2F3D-Interior-%26-Exterior-Design.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2Fgraphics-designer.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2Fmotion_graphics.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2Fbranding.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2Fvideo-editing.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2Fsoftware_development.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fservices-img%2FEvent-Organising.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F1.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F2.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F3.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F4.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F5.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F6.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F7.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F8.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F9.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F10.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F11.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-view%2F12.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Ftaem-img.webp&w=360&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Ficon%2Fdigitalmarkeing_about.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fdigital_marketing.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fweb_development.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fweb1.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2F3d-walkthrough.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fimg_1.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fgraphic_design_about.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fmontiongraphic-about.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fevent-maneger-about.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fbranding-img-1.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fsoftware-development-about.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fvideo_editing.webp&w=640&q=75": true,
+  "http://localhost:3100/_next/image?url=%2Fimg%2Fvideo-img.webp&w=640&q=75": true
+ },
+ "forms": [
+  {
+   "name": "Contact: required-field validation",
+   "result": "pass"
+  },
+  {
+   "name": "Contact: invalid email + phone format",
+   "result": "pass"
+  },
+  {
+   "name": "Contact: service chips toggle (aria-pressed)",
+   "result": "pass"
+  },
+  {
+   "name": "Contact: valid submit → loading → honest not-connected error",
+   "result": "pass"
+  },
+  {
+   "name": "Quote modal: open, validate, Escape closes",
+   "result": "pass"
+  },
+  {
+   "name": "Careers: required validation incl. resume",
+   "result": "pass"
+  },
+  {
+   "name": "Careers: rejects wrong file type",
+   "result": "pass"
+  },
+  {
+   "name": "Careers: rejects oversize file",
+   "result": "pass"
+  },
+  {
+   "name": "Careers: accepts PDF, valid submit → honest error",
+   "result": "pass"
+  },
+  {
+   "name": "FAQ: search filters list + empty state",
+   "result": "pass"
+  },
+  {
+   "name": "Portfolio: filter + lightbox keyboard",
+   "result": "pass"
+  },
+  {
+   "name": "Blog: empty state shown (no fake posts)",
+   "result": "pass"
+  },
+  {
+   "name": "Header: mobile menu opens and services expand",
+   "result": "pass"
+  }
+ ],
+ "admin": [
+  {
+   "path": "/admin/login",
+   "status": 200,
+   "h1": "Sign in",
+   "issues": []
+  },
+  {
+   "path": "/admin",
+   "status": 200,
+   "h1": "Dashboard",
+   "issues": []
+  },
+  {
+   "path": "/admin/media",
+   "status": 200,
+   "h1": "Media Library",
+   "issues": []
+  },
+  {
+   "path": "/admin/settings",
+   "status": 200,
+   "h1": "Website Settings",
+   "issues": []
+  },
+  {
+   "path": "/admin/profile",
+   "status": 200,
+   "h1": "Profile & Account",
+   "issues": []
+  },
+  {
+   "path": "/admin/careers",
+   "status": 200,
+   "h1": "Careers Page",
+   "issues": []
+  },
+  {
+   "path": "/admin/pages",
+   "status": 200,
+   "h1": "Pages",
+   "issues": []
+  },
+  {
+   "path": "/admin/pages/new",
+   "status": 200,
+   "h1": "Add Page",
+   "issues": []
+  },
+  {
+   "path": "/admin/services",
+   "status": 200,
+   "h1": "Services",
+   "issues": []
+  },
+  {
+   "path": "/admin/services/new",
+   "status": 200,
+   "h1": "Add Service",
+   "issues": []
+  },
+  {
+   "path": "/admin/city-pages",
+   "status": 200,
+   "h1": "City Pages",
+   "issues": []
+  },
+  {
+   "path": "/admin/city-pages/new",
+   "status": 200,
+   "h1": "Add City Page",
+   "issues": []
+  },
+  {
+   "path": "/admin/faqs",
+   "status": 200,
+   "h1": "FAQs",
+   "issues": []
+  },
+  {
+   "path": "/admin/faqs/new",
+   "status": 200,
+   "h1": "Add FAQ",
+   "issues": []
+  },
+  {
+   "path": "/admin/blog",
+   "status": 200,
+   "h1": "Blog Posts",
+   "issues": []
+  },
+  {
+   "path": "/admin/blog/new",
+   "status": 200,
+   "h1": "Add Blog Post",
+   "issues": []
+  },
+  {
+   "path": "/admin/categories",
+   "status": 200,
+   "h1": "Categories",
+   "issues": []
+  },
+  {
+   "path": "/admin/categories/new",
+   "status": 200,
+   "h1": "Add Category",
+   "issues": []
+  },
+  {
+   "path": "/admin/portfolio",
+   "status": 200,
+   "h1": "Portfolio",
+   "issues": []
+  },
+  {
+   "path": "/admin/portfolio/new",
+   "status": 200,
+   "h1": "Add Portfolio Item",
+   "issues": []
+  },
+  {
+   "path": "/admin/testimonials",
+   "status": 200,
+   "h1": "Testimonials",
+   "issues": []
+  },
+  {
+   "path": "/admin/testimonials/new",
+   "status": 200,
+   "h1": "Add Testimonial",
+   "issues": []
+  },
+  {
+   "path": "/admin/team",
+   "status": 200,
+   "h1": "Team",
+   "issues": []
+  },
+  {
+   "path": "/admin/team/new",
+   "status": 200,
+   "h1": "Add Team Member",
+   "issues": []
+  },
+  {
+   "path": "/admin/jobs",
+   "status": 200,
+   "h1": "Jobs",
+   "issues": []
+  },
+  {
+   "path": "/admin/jobs/new",
+   "status": 200,
+   "h1": "Add Job",
+   "issues": []
+  },
+  {
+   "path": "/admin/applications",
+   "status": 200,
+   "h1": "Job Applications",
+   "issues": []
+  },
+  {
+   "path": "/admin/enquiries",
+   "status": 200,
+   "h1": "Enquiries",
+   "issues": []
+  },
+  {
+   "path": "/admin/seo",
+   "status": 200,
+   "h1": "SEO Metadata",
+   "issues": []
+  },
+  {
+   "path": "/admin/seo/new",
+   "status": 200,
+   "h1": "Add SEO Entry",
+   "issues": []
+  },
+  {
+   "path": "/admin/services/svc-1",
+   "status": 200,
+   "h1": "Digital Marketing",
+   "issues": []
+  },
+  {
+   "path": "/admin/services/svc-1/edit",
+   "status": 200,
+   "h1": "Edit Digital Marketing",
+   "issues": []
+  },
+  {
+   "path": "/admin/city-pages/city-5",
+   "status": 200,
+   "h1": "Prayagraj",
+   "issues": []
+  },
+  {
+   "path": "/admin/city-pages/city-5/edit",
+   "status": 200,
+   "h1": "Edit Prayagraj",
+   "issues": []
+  },
+  {
+   "path": "/admin/faqs/faq-1/edit",
+   "status": 200,
+   "h1": "Edit What services does Auctech IT Solutions offer?",
+   "issues": []
+  },
+  {
+   "path": "/admin/seo/seo-1/edit",
+   "status": 200,
+   "h1": "Edit /",
+   "issues": []
+  },
+  {
+   "path": "/admin/testimonials/tst-1",
+   "status": 200,
+   "h1": "Naveen",
+   "issues": []
+  },
+  {
+   "path": "/admin/team/team-1/edit",
+   "status": 200,
+   "h1": "Edit Satyam Mishra",
+   "issues": []
+  },
+  {
+   "path": "/admin/portfolio/pf-1/edit",
+   "status": 200,
+   "h1": "Edit 3D Walkthrough 1",
+   "issues": []
+  },
+  {
+   "path": "/admin/pages/page-2/edit",
+   "status": 200,
+   "h1": "Edit About Us",
+   "issues": []
+  },
+  {
+   "path": "FLOW login validation + not-connected error",
+   "flow": true,
+   "issues": []
+  },
+  {
+   "path": "FLOW create job → detail → delete (session)",
+   "flow": true,
+   "issues": []
+  },
+  {
+   "path": "FLOW list search/filter/empty + bulk select",
+   "flow": true,
+   "issues": []
+  },
+  {
+   "path": "FLOW edit SEO → slug locked, maxLength validation",
+   "flow": true,
+   "issues": []
+  },
+  {
+   "path": "FLOW media upload rejects non-image",
+   "flow": true,
+   "issues": []
+  }
+ ],
+ "content": [],
+ "summary": {
+  "originalUrls": 52,
+  "publicRoutesChecked": 54,
+  "viewportChecks": 162,
+  "pagesWithIssues": 0,
+  "internalLinksChecked": 57,
+  "badLinks": 0,
+  "uniqueImages": 50,
+  "formsPassed": 13,
+  "formsTotal": 13,
+  "adminChecked": 45,
+  "adminWithIssues": 0
+ },
+ "finishedAt": "2026-11-26T04:54:08.545Z"
+}
