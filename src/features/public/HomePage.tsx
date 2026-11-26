@@ -21,10 +21,7 @@ export function HomePage() {
         <div aria-hidden className="absolute -bottom-40 left-1/2 h-80 w-[60rem] -translate-x-1/2 rounded-full bg-[#E6007A]/20 blur-3xl" />
         <div className="container-x relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="animate-fade-up">
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm font-semibold backdrop-blur">
-              <span className="size-2 rounded-full bg-[#E6007A]" aria-hidden />{home.showcase.label}
-            </span>
-            <h1 className="mt-6 text-4xl font-extrabold leading-[1.06] !text-white sm:text-5xl xl:text-[4rem]">
+            <h1 className="text-4xl font-extrabold leading-[1.06] !text-white sm:text-5xl xl:text-[4rem]">
               <AccentText text={home.hero.h1} accent={home.hero.accent} light />
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80">{home.hero.sub}</p>
