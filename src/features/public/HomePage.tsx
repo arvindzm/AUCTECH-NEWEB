@@ -7,6 +7,8 @@ import { AccentText, Eyebrow, SectionHeading } from "@/components/ui/SectionHead
 import { Reveal } from "@/components/ui/Reveal";
 import { FeatureCard, StatsBand } from "@/components/sections/Blocks";
 import { ServiceCardVisual3D } from "@/components/sections/ServiceCardVisual3D";
+import { ExpertiseFocusCarousel3D } from "@/components/sections/ExpertiseFocusCarousel3D";
+import { HeroVideoShowreel } from "@/components/sections/HeroVideoShowreel";
 import { allTestimonials, cities, portfolioItems } from "@/lib/content";
 import { assetPath, contentApprovals } from "@/lib/site";
 
@@ -15,32 +17,12 @@ export function HomePage() {
   const testimonials = contentApprovals.testimonials ? allTestimonials.filter((t) => t.status === "approved") : [];
   return (
     <>
-      {/* HERO */}
-      <section className="relative overflow-hidden hero-mesh pb-24 pt-36 text-white sm:pt-44 lg:pb-32">
-        <div aria-hidden className="absolute inset-0 grid-lines" />
-        <div aria-hidden className="absolute -bottom-40 left-1/2 h-80 w-[60rem] -translate-x-1/2 rounded-full bg-[#E6007A]/20 blur-3xl" />
-        <div className="container-x relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="animate-fade-up">
-            <h1 className="text-4xl font-extrabold leading-[1.06] !text-white sm:text-5xl xl:text-[4rem]">
-              <AccentText text={home.hero.h1} accent={home.hero.accent} light />
-            </h1>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80">{home.hero.sub}</p>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <ButtonLink href={home.hero.primary.href} variant="gradient" size="lg" arrow>{home.hero.primary.label}</ButtonLink>
-              <ButtonLink href={home.hero.secondary.href} variant="light" size="lg">{home.hero.secondary.label}</ButtonLink>
-            </div>
-          </div>
-          <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-            <div aria-hidden className="absolute -inset-6 rounded-[2.5rem] border border-white/15" />
-            <div className="relative overflow-hidden rounded-[2rem] border border-white/20 shadow-2xl">
-              <Image src={assetPath(home.showcase.image.src)} alt={home.showcase.image.alt} width={640} height={640} priority sizes="(min-width:1024px) 520px, 90vw" className="h-auto w-full" />
-            </div>
-            <div className="absolute -bottom-6 left-3 rounded-2xl bg-white px-5 py-4 text-ink shadow-lift sm:-left-8">
-              <p className="text-2xl font-extrabold text-gradient">{home.showcase.badge}</p>
-              <p className="text-xs font-semibold text-muted">3D Walkthrough Company</p>
-            </div>
-          </div>
-        </div>
+      {/* HERO: FULL-SCREEN CINEMATIC SHOWREEL (Navbar Floats Over It) */}
+      <section className="relative w-full overflow-hidden bg-black p-0 m-0">
+        <h1 className="sr-only">
+          {home.hero.h1} — {home.hero.sub}
+        </h1>
+        <HeroVideoShowreel src={home.showcase.video?.src || "img/Showreel.mp4"} />
       </section>
 
       {/* SHOWCASE */}
@@ -68,11 +50,23 @@ export function HomePage() {
       {/* ABOUT */}
       <section className="py-20 sm:py-28">
         <div className="container-x grid items-center gap-14 lg:grid-cols-2">
-          <Reveal className="relative">
-            <div className="overflow-hidden rounded-[2rem] shadow-card">
-              <Image src={assetPath(home.about.image.src)} alt={home.about.image.alt} width={817} height={768} sizes="(min-width:1024px) 560px, 100vw" className="h-auto w-full" />
+          <Reveal className="relative mx-auto w-full max-w-lg lg:max-w-none">
+            <div className="relative aspect-[648/776] w-full overflow-hidden rounded-[2rem] shadow-card bg-[#0f0f14] border border-slate-200/80">
+              <video
+                src={assetPath(home.about.video?.src || "img/Statue_360_Smooth.mp4")}
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="auto"
+                className="absolute left-0 w-full max-w-none object-cover"
+                style={{
+                  top: "-70px",
+                  height: "calc(100% + 100px)",
+                }}
+              />
             </div>
-            <div className="absolute -bottom-6 right-6 rounded-2xl border border-[#E6007A]/30 bg-[#280146] px-6 py-5 text-white shadow-lift">
+            <div className="absolute -bottom-6 right-6 rounded-2xl border border-[#E6007A]/30 bg-[#280146] px-6 py-5 text-white shadow-lift z-10">
               <p className="text-4xl font-extrabold text-[#E6007A]">{home.about.exp.value}</p><p className="text-sm text-white/85">{home.about.exp.label}</p>
             </div>
           </Reveal>
@@ -135,19 +129,10 @@ export function HomePage() {
       </section>
 
       {/* EXPERTISE */}
-      <section className="bg-surface py-20 sm:py-24">
+      <section className="bg-surface py-20 sm:py-24 overflow-hidden">
         <div className="container-x">
           <SectionHeading eyebrow={home.expertise.label} title={home.expertise.h2} accent={home.expertise.accent} desc={home.expertise.desc} />
-          <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {home.expertise.items.map((it, i) => (
-              <Reveal as="li" key={it.title} delay={(i % 3) * 80} className="rounded-3xl border border-line bg-white p-7 shadow-card">
-                <div className="flex items-start justify-between gap-4"><h3 className="text-xl font-bold">{it.title}</h3><span className="text-2xl font-extrabold text-gradient">{it.value}%</span></div>
-                <p className="mt-2 text-muted">{it.text}</p>
-                <div className="mt-5 flex justify-between text-xs font-semibold text-muted"><span>{it.metric}</span><span>{it.value}%</span></div>
-                <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-100" role="presentation"><div className="h-full rounded-full bg-[#E6007A]" style={{ width: `${it.value}%` }} /></div>
-              </Reveal>
-            ))}
-          </ul>
+          <ExpertiseFocusCarousel3D items={home.expertise.items} />
         </div>
       </section>
 

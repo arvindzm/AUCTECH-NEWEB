@@ -39,7 +39,7 @@ export function Header() {
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
-        scrolled ? "pt-0 px-0" : "px-3 pt-3 sm:px-5"
+        scrolled ? "p-0" : "p-0 sm:px-5 sm:pt-3"
       )}
     >
       <a
@@ -53,7 +53,7 @@ export function Header() {
           "mx-auto flex items-center justify-between gap-3 transition-all duration-300",
           scrolled
             ? "h-16 w-full max-w-full rounded-none border-x-0 border-t-0 border-b border-[#e7e0ee] bg-white/95 px-4 shadow-sm backdrop-blur-xl sm:px-8"
-            : "h-[68px] max-w-[1320px] rounded-full border border-white/60 bg-white/85 pl-4 pr-2 shadow-card backdrop-blur-md sm:pl-6"
+            : "h-16 w-full max-w-full rounded-none border-x-0 border-t-0 border-b border-black/10 bg-white/95 px-4 shadow-sm backdrop-blur-xl sm:h-[68px] sm:max-w-[1320px] sm:rounded-full sm:border sm:border-white/60 sm:bg-white/85 sm:pl-6 sm:pr-2 sm:shadow-card"
         )}
       >
         <Logo height={38} priority badge={false} />
@@ -180,7 +180,7 @@ export function Header() {
         id="mobile-nav"
         className={cn(
           "fixed inset-x-3 overflow-y-auto rounded-3xl border border-line bg-white/95 p-4 shadow-2xl backdrop-blur-xl transition-all duration-300 lg:hidden sm:inset-x-5",
-          scrolled ? "top-[72px] bottom-3" : "top-[88px] bottom-3",
+          scrolled ? "top-[70px] bottom-3" : "top-[70px] sm:top-[88px] bottom-3",
           open ? "visible translate-y-0 opacity-100" : "invisible -translate-y-2 opacity-0"
         )}
       >
