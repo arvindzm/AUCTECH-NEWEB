@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Check } from "lucide-react";
 import { PageHero } from "@/components/sections/PageHero";
 import { CardGrid, CtaBanner, StatsBand } from "@/components/sections/Blocks";
+import { AboutRotatingBox3D } from "@/components/sections/AboutRotatingBox3D";
 import { Eyebrow } from "@/components/ui/SectionHeading";
 import { ButtonLink } from "@/components/ui/Button";
 import { JsonLd } from "@/components/site/JsonLd";
@@ -22,7 +23,7 @@ export default function AboutPage() {
         publisher: { "@type": "Organization", name: "Auctech IT Solutions" } }} />
       <PageHero {...c.hero} title={c.hero.h1} crumbs={[{ label: "Home", href: "/" }, { label: "About Us" }]} />
       <section className="py-20 sm:py-24">
-        <div className="container-x grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+        <div className="container-x grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
             <Eyebrow>{c.who.label}</Eyebrow>
             <h2 className="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl">{c.who.h2}</h2>
@@ -31,14 +32,17 @@ export default function AboutPage() {
               {c.who.bullets.map((b) => <li key={b} className="inline-flex items-center gap-2 rounded-full bg-brand-50 px-4 py-2 text-sm font-semibold text-brand-800"><Check aria-hidden className="size-4" />{b}</li>)}
             </ul>
           </div>
-          <aside className="relative overflow-hidden rounded-[2rem] bg-navy p-8 text-white">
+          <aside className="relative overflow-hidden rounded-[2rem] bg-navy p-7 sm:p-8 text-white">
             <div aria-hidden className="absolute inset-0 grid-lines" />
-            <div className="relative">
-              <p className="text-sm font-bold uppercase tracking-widest text-brand-200">Our Services</p>
-              <ul className="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
-                {services.map((s) => <li key={s.key}><a href={s.href} className="block rounded-xl bg-white/[0.06] px-3 py-2.5 text-sm font-semibold text-white/90 transition hover:bg-white/15">{s.navLabel}</a></li>)}
-              </ul>
-              <ButtonLink href={`tel:${company.phonePrimary.tel}`} variant="gradient" className="mt-6 w-full">Call {company.phonePrimary.display}</ButtonLink>
+            <div className="relative grid items-center gap-6 sm:grid-cols-[1fr_195px] lg:grid-cols-1 xl:grid-cols-[1fr_200px]">
+              <div>
+                <p className="text-sm font-bold uppercase tracking-widest text-brand-200">Our Services</p>
+                <ul className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-2">
+                  {services.map((s) => <li key={s.key}><a href={s.href} className="block rounded-xl bg-white/[0.06] px-3 py-2 text-xs sm:text-sm font-semibold text-white/90 transition hover:bg-white/15">{s.navLabel}</a></li>)}
+                </ul>
+                <ButtonLink href={`tel:${company.phonePrimary.tel}`} variant="gradient" className="mt-5 w-full">Call {company.phonePrimary.display}</ButtonLink>
+              </div>
+              <AboutRotatingBox3D />
             </div>
           </aside>
         </div>

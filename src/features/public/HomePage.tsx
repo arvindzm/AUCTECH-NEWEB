@@ -5,12 +5,12 @@ import { home } from "@/content/home";
 import { ButtonLink } from "@/components/ui/Button";
 import { AccentText, Eyebrow, SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { StatsBand } from "@/components/sections/Blocks";
+import { HeroVideoShowreel } from "@/components/sections/HeroVideoShowreel";
 import { ServiceCardVisual3D } from "@/components/sections/ServiceCardVisual3D";
 import { ExpertiseFocusCarousel3D } from "@/components/sections/ExpertiseFocusCarousel3D";
-import { HeroVideoShowreel } from "@/components/sections/HeroVideoShowreel";
 import { AdvertisingVisual3D } from "@/components/sections/AdvertisingVisual3D";
 import { WalkthroughBackdrop3D } from "@/components/sections/WalkthroughBackdrop3D";
+import { ShowcaseStatsScroll } from "@/components/sections/ShowcaseStatsScroll";
 import { allTestimonials, cities, portfolioItems } from "@/lib/content";
 import { assetPath, contentApprovals } from "@/lib/site";
 
@@ -27,27 +27,8 @@ export function HomePage() {
         <HeroVideoShowreel src={home.showcase.video?.src || "img/Showreel.mp4"} />
       </section>
 
-      {/* SHOWCASE */}
-      <section className="py-20 sm:py-24">
-        <div className="container-x grid gap-10 lg:grid-cols-2 lg:items-end">
-          <Reveal>
-            <Eyebrow>{home.showcase.label}</Eyebrow>
-            <h2 className="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl"><AccentText text={home.showcase.h2} accent={home.showcase.accent} /></h2>
-          </Reveal>
-          <Reveal><p className="text-lg leading-relaxed">{home.showcase.text}</p></Reveal>
-        </div>
-        <div className="container-x mt-10">
-          <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {home.showcase.bullets.map((b, i) => (
-              <Reveal as="li" key={b} delay={i * 70} className="flex items-center gap-3 rounded-2xl border border-line bg-white p-5 font-semibold text-ink shadow-card">
-                <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-[#E6007A] text-white"><Check aria-hidden className="size-4" /></span>{b}
-              </Reveal>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      <StatsBand stats={home.stats} tone="dark" />
+      {/* SHOWCASE -> STATS SCROLL TRANSITION */}
+      <ShowcaseStatsScroll showcase={home.showcase} stats={home.stats} />
 
       {/* ABOUT */}
       <section className="relative mt-16 overflow-hidden bg-[#39025F] py-20 text-white sm:mt-20 sm:py-24">
@@ -131,7 +112,7 @@ export function HomePage() {
       </section>
 
       {/* EXPERTISE */}
-      <section className="bg-surface py-20 sm:py-24 overflow-hidden">
+      <section className="bg-surface pt-20 pb-10 sm:pt-24 sm:pb-12 overflow-hidden">
         <div className="container-x">
           <SectionHeading eyebrow={home.expertise.label} title={home.expertise.h2} accent={home.expertise.accent} desc={home.expertise.desc} />
           <ExpertiseFocusCarousel3D items={home.expertise.items} />
@@ -139,7 +120,7 @@ export function HomePage() {
       </section>
 
       {/* PORTFOLIO */}
-      <section className="py-20 sm:py-24">
+      <section className="pt-6 pb-20 sm:pt-8 sm:pb-24">
         <div className="container-x">
           <SectionHeading eyebrow={home.portfolio.label} title={home.portfolio.h2} accent={home.portfolio.accent} desc={home.portfolio.desc} />
           <ul className="mt-12 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
