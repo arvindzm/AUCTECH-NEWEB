@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Check, Quote, Star } from "lucide-react";
+import { ArrowUpRight, Check, Layers, Lightbulb, Quote, Star, Target } from "lucide-react";
 import { home } from "@/content/home";
 import { ButtonLink } from "@/components/ui/Button";
 import { AccentText, Eyebrow, SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { FeatureCard, StatsBand } from "@/components/sections/Blocks";
+import { StatsBand } from "@/components/sections/Blocks";
 import { ServiceCardVisual3D } from "@/components/sections/ServiceCardVisual3D";
 import { ExpertiseFocusCarousel3D } from "@/components/sections/ExpertiseFocusCarousel3D";
 import { HeroVideoShowreel } from "@/components/sections/HeroVideoShowreel";
+import { AdvertisingVisual3D } from "@/components/sections/AdvertisingVisual3D";
+import { WalkthroughBackdrop3D } from "@/components/sections/WalkthroughBackdrop3D";
 import { allTestimonials, cities, portfolioItems } from "@/lib/content";
 import { assetPath, contentApprovals } from "@/lib/site";
 
@@ -48,10 +50,11 @@ export function HomePage() {
       <StatsBand stats={home.stats} tone="dark" />
 
       {/* ABOUT */}
-      <section className="py-20 sm:py-28">
-        <div className="container-x grid items-center gap-14 lg:grid-cols-2">
+      <section className="relative mt-16 overflow-hidden bg-[#39025F] py-20 text-white sm:mt-20 sm:py-24">
+        <WalkthroughBackdrop3D />
+        <div className="container-x relative z-10 grid items-center gap-14 lg:grid-cols-2">
           <Reveal className="relative mx-auto w-full max-w-lg lg:max-w-none">
-            <div className="relative aspect-[648/776] w-full overflow-hidden rounded-[2rem] shadow-card bg-[#0f0f14] border border-slate-200/80">
+            <div className="relative aspect-[648/776] w-full overflow-hidden rounded-[2rem] shadow-card bg-[#0f0f14] border border-white/15">
               <video
                 src={assetPath(home.about.video?.src || "img/Statue_360_Smooth.mp4")}
                 autoPlay
@@ -66,18 +69,18 @@ export function HomePage() {
                 }}
               />
             </div>
-            <div className="absolute -bottom-6 right-6 rounded-2xl border border-[#E6007A]/30 bg-[#280146] px-6 py-5 text-white shadow-lift z-10">
+            <div className="absolute -bottom-6 right-6 rounded-2xl border border-[#E6007A]/40 bg-[#280146] px-6 py-5 text-white shadow-lift z-10">
               <p className="text-4xl font-extrabold text-[#E6007A]">{home.about.exp.value}</p><p className="text-sm text-white/85">{home.about.exp.label}</p>
             </div>
           </Reveal>
           <Reveal>
-            <Eyebrow>{home.about.label}</Eyebrow>
-            <h2 className="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl"><AccentText text={home.about.h2} accent={home.about.accent} /></h2>
-            <div className="mt-5 space-y-4 text-[17px] leading-relaxed">{home.about.paras.map((p) => <p key={p}>{p}</p>)}</div>
+            <Eyebrow tone="light">{home.about.label}</Eyebrow>
+            <h2 className="mt-3 text-3xl font-extrabold leading-tight !text-white sm:text-4xl"><AccentText text={home.about.h2} accent={home.about.accent} light /></h2>
+            <div className="mt-5 space-y-4 text-[17px] leading-relaxed text-white/80">{home.about.paras.map((p) => <p key={p}>{p}</p>)}</div>
             <ul className="mt-6 grid gap-3 sm:grid-cols-3">
-              {home.about.points.map((p) => <li key={p} className="flex items-start gap-2 text-sm font-semibold text-ink"><Check aria-hidden className="mt-0.5 size-4 shrink-0 text-brand-600" />{p}</li>)}
+              {home.about.points.map((p) => <li key={p} className="flex items-start gap-2 text-sm font-semibold text-white"><Check aria-hidden className="mt-0.5 size-4 shrink-0 text-[#E6007A]" />{p}</li>)}
             </ul>
-            <ButtonLink href={home.about.cta.href} className="mt-8" arrow>{home.about.cta.label}</ButtonLink>
+            <ButtonLink href={home.about.cta.href} variant="gradient" className="mt-8" arrow>{home.about.cta.label}</ButtonLink>
           </Reveal>
         </div>
       </section>
@@ -112,19 +115,18 @@ export function HomePage() {
       </section>
 
       {/* WHY */}
-      <section className="py-20 sm:py-28">
-        <div className="container-x grid items-center gap-14 lg:grid-cols-2">
-          <Reveal className="order-2 lg:order-1">
-            <Eyebrow>{home.why.label}</Eyebrow>
-            <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl"><AccentText text={home.why.h2} accent={home.why.accent} /></h2>
-            <p className="mt-5 text-[17px] leading-relaxed">{home.why.text}</p>
-            <ul className="mt-8 space-y-4">
+      <section className="relative overflow-hidden bg-[#39025F] py-12 text-white sm:py-16 lg:py-20">
+        <AdvertisingVisual3D alt={home.why.image.alt} />
+        <div className="container-x pointer-events-none relative z-10 grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+          <Reveal className="pointer-events-auto order-2 lg:order-1">
+            <Eyebrow tone="light">{home.why.label}</Eyebrow>
+            <h2 className="mt-2.5 text-3xl font-extrabold !text-white sm:text-4xl"><AccentText text={home.why.h2} accent={home.why.accent} light /></h2>
+            <p className="mt-4 text-[17px] leading-relaxed text-white/80">{home.why.text}</p>
+            <ul className="mt-6 space-y-3">
               {home.why.items.map((it, i) => <FeatureRow key={it.title} index={i} {...it} />)}
             </ul>
           </Reveal>
-          <Reveal className="order-1 overflow-hidden rounded-[2rem] shadow-card lg:order-2">
-            <Image src={assetPath(home.why.image.src)} alt={home.why.image.alt} width={900} height={900} sizes="(min-width:1024px) 560px, 100vw" className="h-auto w-full object-cover" />
-          </Reveal>
+          <div aria-hidden="true" className="order-1 h-[225px] sm:h-[285px] lg:order-2 lg:h-full lg:min-h-[400px]" />
         </div>
       </section>
 
@@ -209,6 +211,26 @@ export function HomePage() {
   );
 }
 
+const WHY_ICONS = [Target, Layers, Lightbulb] as const;
+
 function FeatureRow({ title, text, index }: { title: string; text: string; index: number }) {
-  return <FeatureCard card={{ title, text }} index={index + 6} />;
+  const Icon = WHY_ICONS[index % WHY_ICONS.length];
+  return (
+    <Reveal
+      as="li"
+      delay={index * 80}
+      className="group relative flex items-start gap-4 overflow-hidden rounded-2xl border border-white/15 bg-[#280146]/70 p-4 backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-[#d9f72e]/45 hover:bg-[#2f0252]/85"
+    >
+      <span
+        aria-hidden
+        className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-[#d9f72e] transition-colors duration-300 group-hover:bg-[#E6007A] group-hover:text-white"
+      >
+        <Icon className="size-5" />
+      </span>
+      <div>
+        <h3 className="text-lg font-bold !text-white">{title}</h3>
+        <p className="mt-1 text-[15px] leading-relaxed text-white/75">{text}</p>
+      </div>
+    </Reveal>
+  );
 }

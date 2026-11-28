@@ -1,0 +1,288 @@
+/* Scoped 3D studio stage & compositor-only animations for AdvertisingVisual3D */
+
+.root {
+  container-type: inline-size;
+  perspective: 1250px;
+  perspective-origin: 50% 48%;
+}
+
+.backdrop {
+  background-color: #39025f;
+  background-image:
+    radial-gradient(48% 58% at 72% 48%, rgb(139 142 255 / 0.16) 0%, transparent 68%),
+    radial-gradient(40% 50% at 58% 36%, rgb(217 247 44 / 0.11) 0%, transparent 65%),
+    radial-gradient(80% 75% at 50% 92%, rgb(28 1 48 / 0.55) 0%, transparent 74%),
+    linear-gradient(155deg, #430370 0%, #39025f 52%, #2a0147 100%);
+}
+
+.studioGrid {
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.045) 1px, transparent 1px);
+  background-size: 32px 32px;
+  mask-image: radial-gradient(ellipse at 65% 50%, black 25%, transparent 82%);
+}
+
+.floorShadow {
+  background: radial-gradient(
+    ellipse at center,
+    rgb(18 0 34 / 0.72) 0%,
+    rgb(22 1 40 / 0.35) 48%,
+    transparent 76%
+  );
+  transform: translate3d(-50%, 0, 0) scale(1);
+  will-change: transform, opacity;
+}
+
+.tiltShell {
+  transform-style: preserve-3d;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Main 3D composition — clean angled studio pose by default */
+.stageOrbit {
+  transform-style: preserve-3d;
+  transform: rotateX(5deg) rotateY(-6deg) translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.monolithFloat {
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, -24px);
+  will-change: transform;
+}
+
+.monolithEyeFloat {
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 14px);
+  will-change: transform;
+}
+
+.bagFloat {
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, -16px) rotateY(-8deg);
+  will-change: transform;
+}
+
+.tabletFloat {
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 14px) rotateX(10deg) rotateY(-5deg) rotateZ(-2deg);
+  will-change: transform;
+}
+
+.stylusFloat {
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 34px) rotateZ(-40deg);
+  will-change: transform;
+}
+
+.stylusShadowFloat {
+  transform: translate3d(0, 0, 10px) rotateZ(-40deg);
+  will-change: transform, opacity;
+}
+
+.swatchFloat {
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 6px);
+  will-change: transform;
+}
+
+.prismFloat {
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 26px);
+  will-change: transform;
+}
+
+.screenSheen {
+  background: linear-gradient(
+    115deg,
+    transparent 24%,
+    rgb(255 255 255 / 0.22) 48%,
+    rgb(255 255 255 / 0.36) 51%,
+    rgb(255 255 255 / 0.1) 56%,
+    transparent 74%
+  );
+  transform: translate3d(-135%, 0, 0);
+  will-change: transform, opacity;
+}
+
+/* Opt in to continuous motion only when reduced motion is not requested */
+@media (prefers-reduced-motion: no-preference) {
+  .stageOrbit {
+    animation: mkt-stage-orbit 12s ease-in-out infinite;
+  }
+
+  .monolithFloat {
+    animation: mkt-monolith-float 9.5s ease-in-out infinite;
+  }
+
+  .monolithEyeFloat {
+    animation: mkt-eye-crest 7.5s ease-in-out infinite;
+  }
+
+  .bagFloat {
+    animation: mkt-bag-float 10.5s ease-in-out infinite;
+  }
+
+  .tabletFloat {
+    animation: mkt-tablet-hover 8.5s ease-in-out infinite;
+  }
+
+  .stylusFloat {
+    animation: mkt-stylus-glide 7s ease-in-out infinite;
+  }
+
+  .stylusShadowFloat {
+    animation: mkt-stylus-shadow 7s ease-in-out infinite;
+  }
+
+  .swatchFloat {
+    animation: mkt-swatch-breathe 9s ease-in-out infinite;
+  }
+
+  .prismFloat {
+    animation: mkt-prism-bob 8s ease-in-out infinite;
+  }
+
+  .floorShadow {
+    animation: mkt-floor-shadow 12s ease-in-out infinite;
+  }
+
+  .screenSheen {
+    animation: mkt-screen-sheen 9s ease-in-out infinite;
+  }
+}
+
+.paused .stageOrbit,
+.paused .monolithFloat,
+.paused .monolithEyeFloat,
+.paused .bagFloat,
+.paused .tabletFloat,
+.paused .stylusFloat,
+.paused .stylusShadowFloat,
+.paused .swatchFloat,
+.paused .prismFloat,
+.paused .floorShadow,
+.paused .screenSheen {
+  animation-play-state: paused !important;
+}
+
+@keyframes mkt-stage-orbit {
+  0%,
+  100% {
+    transform: rotateX(5deg) rotateY(-7deg) translate3d(0, -3px, 0);
+  }
+  50% {
+    transform: rotateX(1deg) rotateY(6deg) translate3d(0, 3px, 6px);
+  }
+}
+
+@keyframes mkt-monolith-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, -24px);
+  }
+  50% {
+    transform: translate3d(0, -4px, -18px);
+  }
+}
+
+@keyframes mkt-eye-crest {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 14px);
+  }
+  50% {
+    transform: translate3d(0, -3px, 20px);
+  }
+}
+
+@keyframes mkt-bag-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, -16px) rotateY(-8deg);
+  }
+  50% {
+    transform: translate3d(2px, -4px, -10px) rotateY(-3deg);
+  }
+}
+
+@keyframes mkt-tablet-hover {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 14px) rotateX(10deg) rotateY(-5deg) rotateZ(-2deg);
+  }
+  50% {
+    transform: translate3d(0, -3px, 20px) rotateX(8deg) rotateY(-2deg) rotateZ(-1deg);
+  }
+}
+
+@keyframes mkt-stylus-glide {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 34px) rotateZ(-40deg);
+  }
+  50% {
+    transform: translate3d(-4px, -4px, 40px) rotateZ(-36deg);
+  }
+}
+
+@keyframes mkt-stylus-shadow {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: translate3d(0, 0, 10px) rotateZ(-40deg);
+  }
+  50% {
+    opacity: 0.28;
+    transform: translate3d(-3px, -2px, 10px) rotateZ(-36deg);
+  }
+}
+
+@keyframes mkt-swatch-breathe {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 6px) rotateZ(0deg);
+  }
+  50% {
+    transform: translate3d(-2px, 1px, 10px) rotateZ(-1.5deg);
+  }
+}
+
+@keyframes mkt-prism-bob {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 26px) rotateY(0deg);
+  }
+  50% {
+    transform: translate3d(0, -3px, 31px) rotateY(8deg);
+  }
+}
+
+@keyframes mkt-floor-shadow {
+  0%,
+  100% {
+    opacity: 0.92;
+    transform: translate3d(-50%, 0, 0) scale(1);
+  }
+  50% {
+    opacity: 0.74;
+    transform: translate3d(-50%, 0, 0) scale(0.94);
+  }
+}
+
+@keyframes mkt-screen-sheen {
+  0%,
+  20% {
+    opacity: 0;
+    transform: translate3d(-135%, 0, 0);
+  }
+  45% {
+    opacity: 0.9;
+  }
+  68%,
+  100% {
+    opacity: 0;
+    transform: translate3d(140%, 0, 0);
+  }
+}
