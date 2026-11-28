@@ -95,7 +95,7 @@ export function HomePage() {
           <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {home.services.items.map((s, i) => (
               <Reveal as="li" key={s.title} delay={(i % 3) * 80}>
-                <Link href={s.href} className="group flex h-full flex-col overflow-hidden rounded-3xl border border-line bg-white p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-brand-300 hover:shadow-lift">
+                <Link href={s.href} className="group flex h-full flex-col overflow-hidden rounded-3xl border border-line bg-white p-6 transition-all duration-300 hover:border-brand-300 hover:shadow-lift">
                   <div className="relative mb-5">
                     <ServiceCardVisual3D index={i} />
                     <span className="absolute left-3 top-3 rounded-full border border-white/20 bg-black/50 px-2.5 py-0.5 font-mono text-xs font-bold text-white backdrop-blur-md">

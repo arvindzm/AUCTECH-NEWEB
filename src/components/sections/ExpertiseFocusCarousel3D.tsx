@@ -17,6 +17,8 @@ import {
   Play,
 } from "lucide-react";
 import { assetPath } from "@/lib/site";
+import { cn } from "@/lib/cn";
+import styles from "./ExpertiseFocusCarousel3D.module.css";
 
 export interface ExpertiseItem {
   title: string;
@@ -103,7 +105,7 @@ function getMeta(title: string): ItemMeta {
   );
 }
 
-/** Shared card interior used by both mobile 3D focus mode and tablet/desktop horizontal slider. */
+/** Shared lighter royal-violet card interior with 3D layered depth, orbit ring, and topic image. */
 function ExpertiseCardInner({
   item,
   index,
@@ -121,10 +123,30 @@ function ExpertiseCardInner({
   const Icon = meta.icon;
 
   return (
-    <>
+    <div className={cn(styles.cardSurface, "relative flex h-full flex-col rounded-3xl")}>
+      {/* Clipped ambient glow, rotating 3D orbital halo & diagonal sheen */}
       <div
-        className={`relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden ${
-          meta.cover ? "bg-slate-900" : "bg-gradient-to-br from-[#FAF7FD] to-[#EFE8FA]"
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 overflow-hidden rounded-3xl"
+      >
+        <div
+          className={cn(styles.cardGlow, "absolute -top-10 -right-10 size-52 rounded-full")}
+        />
+        <div
+          className={cn(
+            styles.orbitRing3d,
+            "absolute -right-10 -bottom-10 size-36 rounded-full border border-dashed border-[#7c3aed]/30"
+          )}
+        />
+        <div
+          className={cn(styles.cardSheen, "absolute inset-y-0 left-0 z-10 w-2/3")}
+        />
+      </div>
+
+      {/* Image stage with elevated 3D badges */}
+      <div
+        className={`relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden rounded-t-3xl [transform-style:preserve-3d] ${
+          meta.cover ? "bg-[#210537]" : "bg-gradient-to-br from-[#ffffff] to-[#f4ecff]"
         }`}
       >
         <Image
@@ -139,8 +161,17 @@ function ExpertiseCardInner({
           }`}
         />
 
-        {/* Floating Category Tag */}
-        <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5 rounded-full border border-white/20 bg-black/70 px-2.5 py-1 backdrop-blur-md">
+        {/* Soft bottom blend into light lavender card body */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-5 bg-gradient-to-t from-[#eadcff]/65 to-transparent"
+        />
+
+        {/* Elevated 3D Floating Category Tag */}
+        <div
+          className="absolute top-2.5 left-2.5 flex items-center gap-1.5 rounded-full border border-white/25 bg-[#280146]/85 px-2.5 py-1 backdrop-blur-md"
+          style={{ transform: "translateZ(18px)" }}
+        >
           <span
             className={`flex h-4.5 w-4.5 items-center justify-center rounded-full bg-gradient-to-br ${meta.badgeColor} text-white shadow-xs`}
           >
@@ -151,35 +182,46 @@ function ExpertiseCardInner({
           </span>
         </div>
 
-        {/* Floating Metric Pill */}
-        <div className="absolute top-2.5 right-2.5 rounded-full bg-[#E6007A] px-2.5 py-0.5 text-[11px] font-black text-white shadow-md">
+        {/* Elevated 3D Metric Pill */}
+        <div
+          className="absolute top-2.5 right-2.5 rounded-full bg-[#E6007A] px-2.5 py-0.5 text-[11px] font-black text-white shadow-md"
+          style={{ transform: "translateZ(18px)" }}
+        >
           {item.value}% Success
         </div>
       </div>
 
       {/* Card Body Content */}
-      <div className="flex flex-1 flex-col bg-white p-4 sm:p-5">
-        <h3 className="text-lg sm:text-xl font-extrabold tracking-tight text-[#150024]">
+      <div
+        className="relative z-10 flex flex-1 flex-col p-4 sm:p-5"
+        style={{ transform: "translateZ(10px)" }}
+      >
+        <h3 className="text-lg sm:text-xl font-extrabold tracking-tight text-[#1a012e]">
           {item.title}
         </h3>
-        <p className="mt-1.5 line-clamp-2 flex-1 text-xs sm:text-[0.85rem] font-normal leading-relaxed text-slate-600">
+        <p className="mt-1.5 line-clamp-2 flex-1 text-xs sm:text-[0.85rem] font-normal leading-relaxed text-[#443555]">
           {item.text}
         </p>
 
-        {/* Metric Progress Bar */}
-        <div className="mt-3.5 border-t border-slate-100 pt-3">
-          <div className="flex justify-between text-[11px] font-bold text-slate-600">
+        {/* Animated Metric Progress Bar */}
+        <div className="mt-3.5 border-t border-[#280146]/10 pt-3">
+          <div className="flex justify-between text-[11px] font-bold text-[#443555]">
             <span>{item.metric}</span>
-            <span className="font-black text-[#150024]">{item.value}%</span>
+            <span className="font-black text-[#1a012e]">{item.value}%</span>
           </div>
           <div
-            className="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-slate-100"
+            className="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-[#280146]/12"
             role="presentation"
           >
             <div
-              className="h-full rounded-full bg-gradient-to-r from-[#E6007A] to-purple-600 transition-all duration-700"
+              className="relative h-full overflow-hidden rounded-full bg-gradient-to-r from-[#E6007A] to-purple-600 transition-all duration-700"
               style={{ width: `${item.value}%` }}
-            />
+            >
+              <span
+                aria-hidden="true"
+                className={cn(styles.progressShimmer, "absolute inset-y-0 left-0 w-1/2")}
+              />
+            </div>
           </div>
         </div>
 
@@ -189,37 +231,97 @@ function ExpertiseCardInner({
             href={meta.href}
             className={`inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-xs font-black shadow-sm transition-all ${
               isInteractive
-                ? "bg-[#E6007A] text-white shadow-[#E6007A]/25 hover:bg-[#c40068] hover:shadow-md active:scale-95"
-                : "pointer-events-none bg-slate-100 text-slate-400"
+                ? "bg-[#E6007A] text-white shadow-[#E6007A]/30 hover:bg-[#c40068] hover:shadow-md active:scale-95"
+                : "pointer-events-none bg-[#280146]/10 text-[#280146]/45"
             }`}
             tabIndex={isInteractive ? 0 : -1}
           >
             <span>Explore Service</span>
-            <ArrowRight className="h-3.5 w-3.5" />
+            <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5" />
           </Link>
 
-          <span className="text-[11px] font-bold text-slate-400">
+          <span className="text-[11px] font-bold text-[#624d7a]">
             {String(index + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
           </span>
         </div>
       </div>
-    </>
+    </div>
+  );
+}
+
+/** Interactive 3D hover-tilt card shell for tablet/desktop slides (zero React re-renders). */
+function TiltCard3D({
+  children,
+  even,
+}: {
+  children: React.ReactNode;
+  even: boolean;
+}) {
+  const cardRef = useRef<HTMLDivElement>(null);
+  const rafRef = useRef<number | null>(null);
+  const canHoverRef = useRef(false);
+
+  useEffect(() => {
+    const pointerQuery = window.matchMedia("(hover: hover) and (pointer: fine)");
+    const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const sync = () => {
+      canHoverRef.current = pointerQuery.matches && !motionQuery.matches;
+    };
+    sync();
+    pointerQuery.addEventListener("change", sync);
+    motionQuery.addEventListener("change", sync);
+    return () => {
+      pointerQuery.removeEventListener("change", sync);
+      motionQuery.removeEventListener("change", sync);
+      if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
+    };
+  }, []);
+
+  const applyTilt = (rx: number, ry: number) => {
+    if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
+    rafRef.current = requestAnimationFrame(() => {
+      if (cardRef.current) {
+        cardRef.current.style.transform = `rotateX(${rx}deg) rotateY(${ry}deg)`;
+      }
+    });
+  };
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!canHoverRef.current) return;
+    const rect = cardRef.current?.getBoundingClientRect();
+    if (!rect) return;
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    applyTilt(Number((-y * 8).toFixed(2)), Number((x * 10).toFixed(2)));
+  };
+
+  return (
+    <div
+      className={cn(styles.perspectiveWrap, "h-full")}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={() => applyTilt(0, 0)}
+    >
+      <div
+        ref={cardRef}
+        className="h-full transition-transform duration-200 ease-out [transform-style:preserve-3d] will-change-transform"
+      >
+        <div className={cn(even ? styles.card3dEven : styles.card3dOdd, "h-full")}>
+          {children}
+        </div>
+      </div>
+    </div>
   );
 }
 
 export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProps) {
   const total = items.length;
 
-  // Mobile 3D focus state
   const [activeIndex, setActiveIndex] = useState(0);
-
-  // Desktop/tablet seamless horizontal track state (0..total)
   const [trackIndex, setTrackIndex] = useState(0);
   const [noTransition, setNoTransition] = useState(false);
   const trackIndexRef = useRef(0);
   trackIndexRef.current = trackIndex;
 
-  // Shared autoplay / visibility / reduced-motion controls
   const [isHovered, setIsHovered] = useState(false);
   const [userPaused, setUserPaused] = useState(false);
   const [inView, setInView] = useState(true);
@@ -278,7 +380,6 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
     setTrackIndex(i);
   };
 
-  // Smoothly wrap horizontal track from cloned tail back to index 0 after transition completes
   const handleTrackTransitionEnd = () => {
     if (trackIndex >= total) {
       setNoTransition(true);
@@ -291,7 +392,6 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
     }
   };
 
-  // Auto-slide when visible, not hovered, not paused, and motion is allowed
   const shouldAutoSlide = inView && !isHovered && !userPaused && !prefersReducedMotion;
 
   useEffect(() => {
@@ -302,7 +402,6 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
     return () => clearInterval(timer);
   }, [shouldAutoSlide, handleNext]);
 
-  // Mobile Touch Swipe Handlers
   const handleTouchStart = (e: React.TouchEvent) => {
     setIsHovered(true);
     touchStartX.current = e.touches[0].clientX;
@@ -335,7 +434,6 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
     }
   };
 
-  // Mobile 3D focus depth style
   const getMobileCardStyle = (index: number) => {
     let diff = index - activeIndex;
     if (diff > total / 2) diff -= total;
@@ -380,14 +478,17 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
     };
   };
 
-  // Extended list for seamless desktop/tablet horizontal auto-slide
   const horizontalSlides = [...items, ...items.slice(0, 3)];
   const currentDotIndex = trackIndex % total;
+  const animationsPaused = !inView || userPaused;
 
   return (
     <div
       ref={containerRef}
-      className="expertise-carousel-root relative mt-6 sm:mt-10 w-full select-none outline-none"
+      className={cn(
+        "expertise-carousel-root relative mt-6 sm:mt-10 w-full select-none outline-none",
+        animationsPaused && styles.paused
+      )}
       tabIndex={0}
       onKeyDown={handleKeyDown}
       onMouseEnter={() => setIsHovered(true)}
@@ -429,12 +530,12 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
                 if (!isActive) setActiveIndex(i);
               }}
               style={style}
-              className={`group absolute top-1/2 left-1/2 flex w-[265px] cursor-pointer flex-col overflow-hidden rounded-3xl border bg-white text-left transition-all duration-500 ease-out ${
+              className={`group absolute top-1/2 left-1/2 flex w-[265px] cursor-pointer flex-col overflow-hidden rounded-3xl border bg-[#eadcff] text-left transition-all duration-500 ease-out ${
                 Math.abs(diff) >= 2 ? "hidden" : ""
               } ${
                 isActive
-                  ? "border-[#E6007A] shadow-[0_20px_50px_-12px_rgba(230,0,122,0.3),0_10px_25px_-8px_rgba(21,0,36,0.15)] ring-2 ring-[#E6007A]/30"
-                  : "border-slate-200/80 shadow-md hover:border-slate-300"
+                  ? "border-[#E6007A] shadow-[0_20px_50px_-12px_rgba(230,0,122,0.28),0_10px_25px_-8px_rgba(40,1,70,0.16)] ring-2 ring-[#E6007A]/30"
+                  : "border-[#d8c6f7] shadow-md hover:border-[#b794f4]"
               }`}
             >
               <ExpertiseCardInner
@@ -450,10 +551,10 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
       </div>
 
       {/* =====================================================================
-          TABLET & DESKTOP VIEW (>= 640px): Horizontal Auto-Sliding Cards
+          TABLET & DESKTOP VIEW (>= 640px): 3D Animated Horizontal Auto-Slider
          ===================================================================== */}
       <div className="relative hidden sm:block">
-        <div className="overflow-hidden py-4 -mx-3">
+        <div className="overflow-hidden py-6 -mx-3">
           <div
             onTransitionEnd={handleTrackTransitionEnd}
             style={{ "--track-index": trackIndex } as React.CSSProperties}
@@ -470,15 +571,17 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
                   aria-hidden={isClone || undefined}
                   className="w-1/2 shrink-0 px-3 lg:w-1/3"
                 >
-                  <div className="group flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200/90 bg-white text-left shadow-card transition-all duration-300 hover:-translate-y-1.5 hover:border-[#E6007A]/60 hover:shadow-lift">
-                    <ExpertiseCardInner
-                      item={it}
-                      index={realIndex}
-                      total={total}
-                      isInteractive={!isClone}
-                      priority={idx < 3}
-                    />
-                  </div>
+                  <TiltCard3D even={realIndex % 2 === 0}>
+                    <div className="group flex h-full flex-col rounded-3xl border border-[#d6c2f7] bg-[#eadcff] text-left shadow-[0_14px_34px_-12px_rgba(40,1,70,0.16)] [transform-style:preserve-3d] transition-colors duration-300 hover:border-[#E6007A]/70 hover:shadow-[0_22px_48px_-12px_rgba(230,0,122,0.28)]">
+                      <ExpertiseCardInner
+                        item={it}
+                        index={realIndex}
+                        total={total}
+                        isInteractive={!isClone}
+                        priority={idx < 3}
+                      />
+                    </div>
+                  </TiltCard3D>
                 </div>
               );
             })}
@@ -491,7 +594,7 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
             type="button"
             onClick={handlePrev}
             aria-label="Previous service card"
-            className="pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white/95 text-[#150024] shadow-xl backdrop-blur-md transition-all duration-200 hover:scale-110 hover:border-[#E6007A] hover:bg-[#E6007A] hover:text-white active:scale-95 focus:outline-none focus:ring-2 focus:ring-[#E6007A]/40 lg:h-12 lg:w-12"
+            className="pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full border border-[#d6c2f7] bg-white/95 text-[#280146] shadow-xl backdrop-blur-md transition-all duration-200 hover:scale-110 hover:border-[#E6007A] hover:bg-[#E6007A] hover:text-white active:scale-95 focus:outline-none focus:ring-2 focus:ring-[#E6007A]/40 lg:h-12 lg:w-12"
           >
             <ChevronLeft className="h-5 w-5 sm:h-6 sm:w-6" />
           </button>
@@ -500,14 +603,14 @@ export function ExpertiseFocusCarousel3D({ items }: ExpertiseFocusCarousel3DProp
             type="button"
             onClick={handleNext}
             aria-label="Next service card"
-            className="pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white/95 text-[#150024] shadow-xl backdrop-blur-md transition-all duration-200 hover:scale-110 hover:border-[#E6007A] hover:bg-[#E6007A] hover:text-white active:scale-95 focus:outline-none focus:ring-2 focus:ring-[#E6007A]/40 lg:h-12 lg:w-12"
+            className="pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full border border-[#d6c2f7] bg-white/95 text-[#280146] shadow-xl backdrop-blur-md transition-all duration-200 hover:scale-110 hover:border-[#E6007A] hover:bg-[#E6007A] hover:text-white active:scale-95 focus:outline-none focus:ring-2 focus:ring-[#E6007A]/40 lg:h-12 lg:w-12"
           >
             <ChevronRight className="h-5 w-5 sm:h-6 sm:w-6" />
           </button>
         </div>
       </div>
 
-      {/* BOTTOM CONTROLS (PAGINATION DOTS + MOBILE QUICK BUTTONS + PAUSE TOGGLE) */}
+      {/* BOTTOM CONTROLS */}
       <div className="mt-3 flex flex-col items-center justify-center gap-2.5">
         <div className="flex items-center gap-3">
           <button

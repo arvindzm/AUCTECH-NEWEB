@@ -1,0 +1,158 @@
+/* Scoped lighter royal-violet card surface & smooth 3D compositor animations */
+
+.perspectiveWrap {
+  perspective: 950px;
+}
+
+.cardSurface {
+  background: linear-gradient(155deg, #f6f0ff 0%, #eadcff 56%, #dec7fc 100%);
+  transform-style: preserve-3d;
+}
+
+.cardGlow {
+  background: radial-gradient(
+    circle at 80% 15%,
+    rgb(230 0 122 / 0.16) 0%,
+    rgb(139 92 246 / 0.18) 46%,
+    transparent 74%
+  );
+  transform: translate3d(0, 0, 0) scale(1);
+  will-change: transform, opacity;
+}
+
+.cardSheen {
+  background: linear-gradient(
+    112deg,
+    transparent 24%,
+    rgb(255 255 255 / 0.45) 46%,
+    rgb(230 0 122 / 0.08) 52%,
+    transparent 74%
+  );
+  transform: translate3d(-120%, 0, 0);
+  will-change: transform, opacity;
+}
+
+.orbitRing3d {
+  transform: rotateX(62deg) rotateY(-18deg) rotateZ(0deg);
+  will-change: transform;
+}
+
+.progressShimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgb(255 255 255 / 0.45) 50%,
+    transparent 100%
+  );
+  transform: translate3d(-100%, 0, 0);
+  will-change: transform;
+}
+
+.card3dEven,
+.card3dOdd {
+  transform-style: preserve-3d;
+  transform: rotateX(1.5deg) rotateY(-2deg) translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cardGlow {
+    animation: exp-glow-breathe 7s ease-in-out infinite;
+  }
+
+  .cardSheen {
+    animation: exp-card-sheen 8.5s ease-in-out infinite;
+  }
+
+  .orbitRing3d {
+    animation: exp-ring-orbit 14s linear infinite;
+  }
+
+  .progressShimmer {
+    animation: exp-bar-shimmer 3.2s ease-in-out infinite;
+  }
+
+  .card3dEven {
+    animation: exp-card-3d-a 7.5s ease-in-out infinite;
+  }
+
+  .card3dOdd {
+    animation: exp-card-3d-b 7.5s ease-in-out infinite;
+  }
+}
+
+.paused .cardGlow,
+.paused .cardSheen,
+.paused .orbitRing3d,
+.paused .progressShimmer,
+.paused .card3dEven,
+.paused .card3dOdd {
+  animation-play-state: paused !important;
+}
+
+@keyframes exp-glow-breathe {
+  0%,
+  100% {
+    opacity: 0.72;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translate3d(-6px, 4px, 0) scale(1.08);
+  }
+}
+
+@keyframes exp-card-sheen {
+  0%,
+  25% {
+    opacity: 0;
+    transform: translate3d(-120%, 0, 0);
+  }
+  50% {
+    opacity: 1;
+  }
+  75%,
+  100% {
+    opacity: 0;
+    transform: translate3d(130%, 0, 0);
+  }
+}
+
+@keyframes exp-ring-orbit {
+  0% {
+    transform: rotateX(62deg) rotateY(-18deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(62deg) rotateY(-18deg) rotateZ(360deg);
+  }
+}
+
+@keyframes exp-bar-shimmer {
+  0% {
+    transform: translate3d(-120%, 0, 0);
+  }
+  60%,
+  100% {
+    transform: translate3d(220%, 0, 0);
+  }
+}
+
+@keyframes exp-card-3d-a {
+  0%,
+  100% {
+    transform: rotateX(2deg) rotateY(-2.5deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotateX(-1.5deg) rotateY(2.5deg) translate3d(0, -5px, 10px);
+  }
+}
+
+@keyframes exp-card-3d-b {
+  0%,
+  100% {
+    transform: rotateX(-1.5deg) rotateY(2.5deg) translate3d(0, -4px, 8px);
+  }
+  50% {
+    transform: rotateX(2deg) rotateY(-2.5deg) translate3d(0, 1px, 0);
+  }
+}
